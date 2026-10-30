@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - CARMEN</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>N.C.P.A. LA CRISTALINA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71818</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.09925022042772,18.785356905282971 -91.104908026378141,18.739520515957683 -91.102458415917098,18.740065230033405 -91.100556199642241,18.740382211084277 -91.09778014449374,18.740589083351814 -91.094327802765221,18.741235168712311 -91.093783041365299,18.741347964305948 -91.092274971587813,18.741683237626578 -91.092320353529686,18.738856927573966 -91.091879312153196,18.736783849247793 -91.090103863434564,18.736238744490574 -91.087356418110318,18.735196665389381 -91.085815190499048,18.735324855295982 -91.08391134208118,18.735129086378805 -91.082699208497772,18.734662421528061 -91.081146668334981,18.733447794630926 -91.079210237868196,18.731014502940209 -91.078513858211011,18.730306633823155 -91.077582100726673,18.729875366119995 -91.076548103555538,18.728191110656539 -91.075665628104403,18.726702257126721 -91.072779641719634,18.724581161201971 -91.071689991565776,18.723960889180383 -91.070754190354364,18.727872892824305 -91.070778896557684,18.728809488437818 -91.070848469672796,18.731633673177146 -91.068892488796564,18.73140096574889 -91.069154445804998,18.734109864504347 -91.067242108971158,18.733947636346748 -91.066996515287642,18.736876226681066 -91.062796851069976,18.736216975747165 -91.062227783624635,18.738243827512235 -91.061599845385686,18.740559680999223 -91.062890905274841,18.740744802034811 -91.063144452114557,18.745346295619445 -91.065117706609868,18.745575468620601 -91.065302738076625,18.745601403228285 -91.066654987552653,18.743195519988181 -91.070577909164598,18.743425781844646 -91.075264453338491,18.744143011838691 -91.076538245692689,18.74723285697625 -91.07508561259985,18.751568646302484 -91.073298802483251,18.751317950758899 -91.07305521326704,18.752206819673919 -91.072126258073624,18.752065324579359 -91.071194145240838,18.755553479038301 -91.071525598035649,18.757879062872455 -91.070953375359494,18.760073620085958 -91.066253665483316,18.759386728766646 -91.061765599173,18.757687529977581 -91.06147615879776,18.758692094956057 -91.061341504279397,18.759192661207091 -91.066147248005663,18.759734920239023 -91.064981261777262,18.763761877431403 -91.063762684913996,18.768084124157149 -91.068466461185963,18.768754922400234 -91.067278190530871,18.773095945561312 -91.062574583968143,18.772456963277062 -91.061330670287589,18.776827456357758 -91.060450451456532,18.776714051635214 -91.059431687541547,18.780350158075464 -91.059956125098424,18.780484093372483 -91.060735005469596,18.780679235212855 -91.059732448012809,18.784389477242879 -91.063865064907475,18.785919284327367 -91.070013655105171,18.785814464328286 -91.08390319149072,18.785597659433144 -91.09925022042772,18.785356905282971</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. LA CRISTALINA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71819</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.052271742103713,18.734636602946399 -91.052663709691274,18.731240883917042 -91.048904838685303,18.730737895838022 -91.048780211666198,18.73185428962713 -91.052271742103713,18.734636602946399</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

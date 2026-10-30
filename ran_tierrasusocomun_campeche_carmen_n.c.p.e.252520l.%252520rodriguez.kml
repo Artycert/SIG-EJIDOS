@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - CARMEN</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>N.C.P.E. ABELARDO L. RODRIGUEZ</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71878</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">78</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. ABELARDO L. RODRIGUEZ</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.907978500901663,18.741203990783429 -90.908052550669012,18.739930235729577 -90.908078307889113,18.739487186902913 -90.908825516289454,18.730074215597824 -90.908833026177234,18.729809113664906 -90.908573017204574,18.729958475636813 -90.907796949713855,18.730404283155742 -90.906814548304069,18.73096862021929 -90.90649331174923,18.731152645740618 -90.906302593202838,18.731050967544377 -90.906071050919664,18.730926882010561 -90.905753943767579,18.731168132058734 -90.905678621621945,18.73122546262514 -90.905463976054321,18.731382659928997 -90.905298007681083,18.731504207730222 -90.905219744221313,18.731561524263672 -90.905189756053545,18.731597377887514 -90.904923751475863,18.73179974939735 -90.904829883598168,18.731871162175839 -90.904363827999745,18.732225726139063 -90.903581142708759,18.732821168082936 -90.899808091378219,18.735616606094077 -90.897382788177225,18.732615835875688 -90.895153101243636,18.729814089204297 -90.898728866215549,18.727279071852102 -90.8989226543369,18.727261310764977 -90.898496451336072,18.726752625038369 -90.898384374769265,18.726618851497484 -90.900350707704931,18.725343578234231 -90.90074238335599,18.725089550361577 -90.900836842233431,18.725028287207923 -90.901230598229759,18.724772908003395 -90.905655630874804,18.721902838639185 -90.906944847101002,18.723529667557553 -90.907222327631075,18.723879822111275 -90.907507184528669,18.724239272573911 -90.907541782225465,18.724282936971274 -90.907575707767649,18.724325753770504 -90.907595938057014,18.724351281660592 -90.907828909565779,18.724645203659776 -90.908129536179189,18.725024612155412 -90.908180462514252,18.72508886475066 -90.908472325089804,18.725457154468732 -90.908986335969431,18.726105603758352 -90.909085266931086,18.723025837612578 -90.909122872804119,18.721515301331415 -90.909049977285065,18.721510684457265 -90.901653817901803,18.721004112043694 -90.893637724925284,18.720533511298971 -90.894075176104991,18.714271000022588 -90.894410042850851,18.709978908588475 -90.894538178372699,18.708083255262864 -90.895055147595457,18.701646976138932 -90.895229781371043,18.698448961595972 -90.894684837158195,18.698395978549271 -90.889968801480066,18.697861311144244 -90.885099757684586,18.697309165135746 -90.881563323442222,18.696890965546817 -90.870396602188805,18.695629999298863 -90.856558787026202,18.693472678149245 -90.852662618955364,18.71920723208202 -90.846457463537149,18.718071070800082 -90.844150803772038,18.717632274344002 -90.838444360107218,18.71656050861543 -90.831245561259237,18.715246900271797 -90.827406467146972,18.714633147499335 -90.823113411742838,18.713964408386094 -90.823008005534106,18.714636961471101 -90.814076541418586,18.713550010578562 -90.812561330081152,18.713365568377 -90.807605964992362,18.712762274127513 -90.806378344935695,18.712612791429319 -90.805283801124745,18.712479511495012 -90.804043599266549,18.712328484089962 -90.803277241885993,18.714983309685358 -90.802517971229847,18.717613492850802 -90.801762455878119,18.720230533164351 -90.800996297063875,18.722884378173624 -90.80022739540712,18.725547576530698 -90.799443288138008,18.728263350247776 -90.798683460229412,18.730894960741512 -90.797931106872824,18.733500543166482 -90.797425333270695,18.735252122763523 -90.797172159437068,18.736128892075754 -90.796921331775692,18.736997502437582 -90.796669552388082,18.737869424834098 -90.796431514277643,18.73869372990535 -90.796167289118003,18.73960869336344 -90.795428852064674,18.742165772116106 -90.812148568735495,18.744702905890456 -90.810831404401966,18.758287491308984 -90.813301041464186,18.758513580079025 -90.817687476915381,18.758915052433263 -90.821679211582264,18.759280318963896 -90.825326433027655,18.759613977924314 -90.829066135789247,18.759956023362729 -90.832797250496839,18.760297211192313 -90.836588988073629,18.760643867883307 -90.840326267754023,18.76098546398693 -90.844085506295713,18.76132898951019 -90.846081856208542,18.743365761082842 -90.880553046782623,18.747213343518101 -90.881058448258244,18.742617561758603 -90.881264457149982,18.740744074976472 -90.881502883764867,18.738575791840084 -90.884565555914762,18.738920545199839 -90.885749604839319,18.739054554805271 -90.889329722239538,18.739425745276655 -90.890403568441187,18.739530073910441 -90.8914641787904,18.739635304194984 -90.893702008664135,18.739805941270884 -90.895994400658807,18.740080756724613 -90.898246213436011,18.740282715807421 -90.904069056393936,18.740856371832876 -90.905537677586437,18.741005776304181 -90.907978500901663,18.741203990783429</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

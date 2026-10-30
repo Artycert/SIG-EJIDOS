@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Parcelas - CAMPECHE - CARMEN</name>
+	<Schema name="CapaParcelas" id="parcelas_id">
+	<SimpleField type="string" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NumParcela"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Tipo"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="EntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff115923</color>
+</LineStyle>
+<PolyStyle>
+	<color>8c47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>AA47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logo_pie_pagina.png" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Parcelas</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">No. Parcela : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NumParcela]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Tipo : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Tipo]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>Parcela No. 90</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.934664421812</SimpleData>
+			<SimpleData name="NumParcela">90</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.048735801218086,18.734139466637657 -91.048516258993203,18.734108902080859 -91.044039357038116,18.733479765726671 -91.04283163203776,18.737855988894797 -91.047537483597551,18.738512141676278 -91.048735801218086,18.734139466637657</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 91</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.176975652</SimpleData>
+			<SimpleData name="NumParcela">91</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.062796851070146,18.736216975747194 -91.062803046023163,18.736180109636894 -91.062285548773588,18.736119194384599 -91.062442482305755,18.734323686420701 -91.05809791265186,18.733665907603203 -91.057889280952807,18.735450293362316 -91.05811451432875,18.735485215347278 -91.057326495994928,18.738311822893742 -91.062227783624749,18.738243827512235 -91.062796851070146,18.736216975747194</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 92</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.817683791454</SimpleData>
+			<SimpleData name="NumParcela">92</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.043661873072111,18.734724400177189 -91.044862846990753,18.730353615927754 -91.041104547110152,18.72988412192753 -91.03991158458328,18.73425619617343 -91.043661873072111,18.734724400177189</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 93</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.847628796734</SimpleData>
+			<SimpleData name="NumParcela">93</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.03991158458328,18.73425619617343 -91.041104547110152,18.72988412192753 -91.037344210205319,18.729422617823538 -91.036143717207906,18.733786225478028 -91.03991158458328,18.73425619617343</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 94</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.860304007534</SimpleData>
+			<SimpleData name="NumParcela">94</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.036143717207906,18.733786225478028 -91.037344210205319,18.729422617823538 -91.033579286866953,18.728954216249001 -91.032381876540128,18.733337780136534 -91.036143717207906,18.733786225478028</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 95</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.384045502024</SimpleData>
+			<SimpleData name="NumParcela">95</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.032381876540128,18.733337780136534 -91.033579286866953,18.728954216249001 -91.029820933663061,18.728501311431838 -91.028844387938946,18.733207386383768 -91.029129833150222,18.733249182814824 -91.032174834680021,18.733631592244443 -91.032299065977583,18.733640459506496 -91.032381876540128,18.733337780136534</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 96</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.796834872972</SimpleData>
+			<SimpleData name="NumParcela">96</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.028844387938946,18.733207386383768 -91.029820933663061,18.728501311431838 -91.02588747332986,18.728029891480688 -91.025391178683577,18.7327918909637 -91.028844387938946,18.733207386383768</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 97</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">101.598691282961</SimpleData>
+			<SimpleData name="NumParcela">97</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.031026041507985,18.724142317765644 -91.03025817641003,18.724018104939891 -91.030748598699446,18.720256278102909 -91.023035570757969,18.719077040935318 -91.02149104442455,18.732644552001148 -91.025339788934204,18.733136100249002 -91.025391178683577,18.7327918909637 -91.02588747332986,18.728029891480688 -91.029820933663061,18.728501311431838 -91.031026041507985,18.724142317765644</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 98</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">30.947376831502</SimpleData>
+			<SimpleData name="NumParcela">98</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.067242108971243,18.733947636346812 -91.067477827679824,18.731237525022653 -91.064380623178707,18.730865383386043 -91.062739290624322,18.730664864681419 -91.062442482305755,18.734323686420701 -91.062285548773588,18.736119194384599 -91.062803046023163,18.736180109636894 -91.062796851070146,18.736216975747194 -91.066996515287727,18.736876226681041 -91.067242108971243,18.733947636346812</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 99</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.023768287156</SimpleData>
+			<SimpleData name="NumParcela">99</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.048735801218086,18.734139466637657 -91.052271742103713,18.734636602946374 -91.048780211666283,18.73185428962713 -91.048516258993203,18.734108902080859 -91.048735801218086,18.734139466637657</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 25</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">12.976709594131</SimpleData>
+			<SimpleData name="NumParcela">25</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.026408848249631,18.762423677142991 -91.027273312519966,18.759255390729948 -91.024935747340351,18.759015854208581 -91.02546716186859,18.757242040096607 -91.02310926927602,18.756975601187886 -91.022922884933209,18.758811973013263 -91.025797200092825,18.761789985996902 -91.026408848249631,18.762423677142991</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 26</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.022250492977</SimpleData>
+			<SimpleData name="NumParcela">26</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.036639022499315,18.760286123697774 -91.037852033964739,18.755911566877554 -91.034065268197693,18.755475763776655 -91.032829912922878,18.759852375039969 -91.036639022499315,18.760286123697774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 27</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.88901268732</SimpleData>
+			<SimpleData name="NumParcela">27</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.032829912922878,18.759852375039969 -91.034065268197693,18.755475763776655 -91.030296196488862,18.755062737252096 -91.029055646491543,18.759453371878639 -91.032829912922878,18.759852375039969</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 28</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.565132494455</SimpleData>
+			<SimpleData name="NumParcela">28</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.029055646491543,18.759453371878639 -91.030296196488862,18.755062737252096 -91.026253429294485,18.754621742253033 -91.02546716186859,18.757242040096607 -91.024935747340351,18.759015854208581 -91.027273312519966,18.759255390729948 -91.029055646491543,18.759453371878639</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 29</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.75571969498</SimpleData>
+			<SimpleData name="NumParcela">29</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.064981261777376,18.763761877431392 -91.066147248005734,18.759734920238998 -91.061341504279596,18.759192661207134 -91.060286585245706,18.763088721713444 -91.064981261777376,18.763761877431392</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 3</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">28.390347023607</SimpleData>
+			<SimpleData name="NumParcela">3</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.050379959367632,18.78098019908462 -91.051891545269569,18.77555156729067 -91.047211874834645,18.774821883521081 -91.045950662374352,18.779357339707747 -91.049819542737239,18.780774874689595 -91.049875417216143,18.780795341315173 -91.050379959367632,18.78098019908462</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 30</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">49.80711213392</SimpleData>
+			<SimpleData name="NumParcela">30</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.061341504279596,18.759192661207134 -91.061476158797888,18.758692094956004 -91.056791867134763,18.758041970997422 -91.05213899088632,18.75734567129491 -91.050886768927342,18.761709678122067 -91.055583777100935,18.762415944402481 -91.060286585245706,18.763088721713444 -91.061341504279596,18.759192661207134</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 32</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.789412126392</SimpleData>
+			<SimpleData name="NumParcela">32</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.046189816548477,18.761079424480887 -91.047432495240358,18.756714717208013 -91.042748058453611,18.756101557111698 -91.041488588553946,18.760457077703254 -91.046189816548477,18.761079424480887</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 33</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.92421552067</SimpleData>
+			<SimpleData name="NumParcela">33</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.041488588553946,18.760457077703254 -91.042748058453611,18.756101557111698 -91.038046355782683,18.755332052994046 -91.036832677747825,18.759698745753568 -91.041488588553946,18.760457077703254</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 34</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.450729197626</SimpleData>
+			<SimpleData name="NumParcela">34</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.026253429294485,18.754621742253033 -91.027508532880162,18.750254488218477 -91.024702294854123,18.749956536151114 -91.023830934533194,18.749864763989915 -91.02310926927602,18.756975601187886 -91.02546716186859,18.757242040096607 -91.026253429294485,18.754621742253033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 35</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.946438738826</SimpleData>
+			<SimpleData name="NumParcela">35</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.037852033964739,18.755911566877554 -91.03906104890153,18.751545806425664 -91.035286220218666,18.75109016917656 -91.034065268197693,18.755475763776655 -91.037852033964739,18.755911566877554</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 41</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.881013579222</SimpleData>
+			<SimpleData name="NumParcela">41</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.056791867134763,18.758041970997422 -91.058035914626515,18.753653504846014 -91.053345069885467,18.752971737525108 -91.05213899088632,18.75734567129491 -91.056791867134763,18.758041970997422</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 42</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.89247441388</SimpleData>
+			<SimpleData name="NumParcela">42</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.05213899088632,18.75734567129491 -91.053345069885467,18.752971737525108 -91.048652651765309,18.752340256214328 -91.047432495240358,18.756714717208013 -91.05213899088632,18.75734567129491</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 43</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.958827913653</SimpleData>
+			<SimpleData name="NumParcela">43</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.047432495240358,18.756714717208013 -91.048652651765309,18.752340256214328 -91.043941437494695,18.751697170996728 -91.042748058453611,18.756101557111698 -91.047432495240358,18.756714717208013</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 44</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.148907624506</SimpleData>
+			<SimpleData name="NumParcela">44</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.042748058453611,18.756101557111698 -91.043941437494695,18.751697170996728 -91.039236971479596,18.750958229055296 -91.038046355782683,18.755332052994046 -91.042748058453611,18.756101557111698</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 45</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.960433449792</SimpleData>
+			<SimpleData name="NumParcela">45</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.03906104890153,18.751545806425664 -91.04007834983949,18.747869914351362 -91.036307385660365,18.747404037043971 -91.035357530208543,18.74730167553599 -91.034341936812837,18.750980731875188 -91.035286220218666,18.75109016917656 -91.03906104890153,18.751545806425664</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 39</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.771876273416</SimpleData>
+			<SimpleData name="NumParcela">39</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.066253665483401,18.759386728766568 -91.067351885607991,18.75525618867249 -91.066470640463024,18.755348528143724 -91.066484447967525,18.754887440503051 -91.062724973283153,18.754335599498617 -91.0617655991731,18.75768752997763 -91.066253665483401,18.759386728766568</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 4</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">49.129380254837</SimpleData>
+			<SimpleData name="NumParcela">4</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.047211874834645,18.774821883521081 -91.048472885150588,18.770453668722631 -91.043767644527847,18.769820304295074 -91.042248850385576,18.775067890137116 -91.040084057098738,18.774830949108075 -91.043206514407643,18.778355529036759 -91.045950662374352,18.779357339707747 -91.047211874834645,18.774821883521081</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 40</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.896424656382</SimpleData>
+			<SimpleData name="NumParcela">40</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.0617655991731,18.75768752997763 -91.062724973283153,18.754335599498617 -91.058035914626515,18.753653504846014 -91.056791867134763,18.758041970997422 -91.061476158797888,18.758692094956004 -91.0617655991731,18.75768752997763</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 46</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.645891974965</SimpleData>
+			<SimpleData name="NumParcela">46</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.034341936812837,18.750980731875188 -91.035357530208543,18.74730167553599 -91.032532041276809,18.746985465967569 -91.030056149416595,18.746723783091834 -91.02942833340461,18.750458641685533 -91.031521159703289,18.75067683760787 -91.034341936812837,18.750980731875188</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 47</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.956160734987</SimpleData>
+			<SimpleData name="NumParcela">47</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.02942833340461,18.750458641685533 -91.030056149416595,18.746723783091834 -91.028423542666758,18.74654850281993 -91.025345165427012,18.746219141384376 -91.024702294854123,18.749956536151114 -91.027508532880162,18.750254488218477 -91.02942833340461,18.750458641685533</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 48</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">4.451190845075</SimpleData>
+			<SimpleData name="NumParcela">48</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.024702294854123,18.749956536151114 -91.025345165427012,18.746219141384376 -91.024213096361251,18.746098775036721 -91.024142458345509,18.746794901963931 -91.023830934533194,18.749864763989915 -91.024702294854123,18.749956536151114</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 5</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.491985878426</SimpleData>
+			<SimpleData name="NumParcela">5</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.059431687541732,18.780350158075503 -91.060450451456731,18.776714051635214 -91.056606245185407,18.776210839213018 -91.055667036748901,18.776078948052309 -91.054797149806319,18.779180436569636 -91.059431687541732,18.780350158075503</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 50</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.912639205464</SimpleData>
+			<SimpleData name="NumParcela">50</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.067788604881883,18.753680117622203 -91.068606077357174,18.750646999746188 -91.063920454970585,18.74995606961895 -91.062724973283153,18.754335599498617 -91.066484447967525,18.754887440503051 -91.067134567309807,18.753931039256255 -91.067788604881883,18.753680117622203</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 51</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.869738643873</SimpleData>
+			<SimpleData name="NumParcela">51</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.062724973283153,18.754335599498617 -91.063920454970585,18.74995606961895 -91.059213816332885,18.749302757788339 -91.059179644149893,18.749508129655325 -91.059153966441301,18.749513798404468 -91.058035914626515,18.753653504846014 -91.062724973283153,18.754335599498617</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 52</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.087334649638</SimpleData>
+			<SimpleData name="NumParcela">52</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.058035914626515,18.753653504846014 -91.059153966441301,18.749513798404468 -91.057754368786789,18.749696287634006 -91.055579832218655,18.748951326335025 -91.055569889232473,18.748748947760884 -91.054541357744156,18.748592709715481 -91.053345069885467,18.752971737525108 -91.058035914626515,18.753653504846014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 53</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.888904733193</SimpleData>
+			<SimpleData name="NumParcela">53</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.053345069885467,18.752971737525108 -91.054541357744156,18.748592709715481 -91.049840294452437,18.747961683350152 -91.048652651765309,18.752340256214328 -91.053345069885467,18.752971737525108</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 54</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.053480377206</SimpleData>
+			<SimpleData name="NumParcela">54</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.048652651765309,18.752340256214328 -91.049840294452437,18.747961683350152 -91.045138207828458,18.747290050574406 -91.043941437494695,18.751697170996728 -91.048652651765309,18.752340256214328</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 55</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.045375747694</SimpleData>
+			<SimpleData name="NumParcela">55</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.043941437494695,18.751697170996728 -91.045138207828458,18.747290050574406 -91.040457797620249,18.746592187132265 -91.039236971479596,18.750958229055296 -91.043941437494695,18.751697170996728</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 56</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.01450413625</SimpleData>
+			<SimpleData name="NumParcela">56</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.04007834983949,18.747869914351362 -91.041283787234562,18.743483700346925 -91.037508349987874,18.743004952939341 -91.036307385660365,18.747404037043971 -91.04007834983949,18.747869914351362</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 57</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.683938906132</SimpleData>
+			<SimpleData name="NumParcela">57</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.037508349987874,18.743004952939341 -91.037606046249024,18.742634051193932 -91.033181015322697,18.74243225157203 -91.032532041276809,18.746985465967569 -91.035357530208543,18.74730167553599 -91.036307385660365,18.747404037043971 -91.037508349987874,18.743004952939341</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 58</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.21723899425</SimpleData>
+			<SimpleData name="NumParcela">58</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.033181015322697,18.74243225157203 -91.033105843354789,18.742430341146733 -91.029021159898704,18.742020073632979 -91.028423542666758,18.74654850281993 -91.030056149416595,18.746723783091834 -91.032532041276809,18.746985465967569 -91.033181015322697,18.74243225157203</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 59</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.898300082835</SimpleData>
+			<SimpleData name="NumParcela">59</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.028423542666758,18.74654850281993 -91.029021159898704,18.742020073632979 -91.024672419795877,18.741572051891172 -91.024213096361251,18.746098775036721 -91.025345165427012,18.746219141384376 -91.028423542666758,18.74654850281993</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 6</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">27.076747887896</SimpleData>
+			<SimpleData name="NumParcela">6</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.042248850385576,18.775067890137116 -91.043767644527847,18.769820304295074 -91.03905376948903,18.769204358096459 -91.038114759839019,18.772600108810131 -91.038960466019532,18.773558137882997 -91.039968649180977,18.774700213386549 -91.040084057098738,18.774830949108075 -91.042248850385576,18.775067890137116</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 60</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">10.138426645645</SimpleData>
+			<SimpleData name="NumParcela">60</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.075085612599977,18.751568646302484 -91.076538245692802,18.74723285697625 -91.074499917210176,18.746945703873699 -91.073298802483336,18.75131795075885 -91.075085612599977,18.751568646302484</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 61</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.925889287362</SimpleData>
+			<SimpleData name="NumParcela">61</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.073298802483336,18.75131795075885 -91.074499917210176,18.746945703873699 -91.069809042187046,18.746264494468203 -91.068606077357174,18.750646999746188 -91.073298802483336,18.75131795075885</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 62</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.953357005328</SimpleData>
+			<SimpleData name="NumParcela">62</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.068606077357174,18.750646999746188 -91.069809042187046,18.746264494468203 -91.065302738076696,18.745601403228221 -91.065117706609968,18.745575468620601 -91.063920454970585,18.74995606961895 -91.068606077357174,18.750646999746188</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 63</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.79450903932</SimpleData>
+			<SimpleData name="NumParcela">63</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.063920454970585,18.74995606961895 -91.065117706609968,18.745575468620601 -91.063144452114614,18.745346295619438 -91.060412350974801,18.744950033446489 -91.059213816332885,18.749302757788339 -91.063920454970585,18.74995606961895</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 64</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">7.683074334214</SimpleData>
+			<SimpleData name="NumParcela">64</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.0566849017235,18.746903317219747 -91.057580825939056,18.744518742039631 -91.05573615567458,18.744233128811093 -91.054541357744156,18.748592709715481 -91.055569889232473,18.748748947760884 -91.055406741246188,18.748219010855625 -91.0566849017235,18.746903317219747</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 17</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.883272945927</SimpleData>
+			<SimpleData name="NumParcela">17</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.03905376948903,18.769204358096459 -91.040272494008804,18.76483089718916 -91.0356057985327,18.764077146235067 -91.034386229977173,18.768441895500942 -91.03905376948903,18.769204358096459</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 18</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.169871060308</SimpleData>
+			<SimpleData name="NumParcela">18</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.035418071761299,18.764674132820765 -91.036639022499315,18.760286123697774 -91.032829912922878,18.759852375039969 -91.031593810658165,18.764237897566275 -91.035418071761299,18.764674132820765</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 19</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">27.919245581267</SimpleData>
+			<SimpleData name="NumParcela">19</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.031593810658165,18.764237897566275 -91.032829912922878,18.759852375039969 -91.029055646491543,18.759453371878639 -91.027273312519966,18.759255390729948 -91.026408848249631,18.762423677142991 -91.0277104149217,18.763797908169128 -91.031593810658165,18.764237897566275</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 2</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">26.503408525118</SimpleData>
+			<SimpleData name="NumParcela">2</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.054797149806319,18.779180436569636 -91.055667036748901,18.776078948052309 -91.051891545269569,18.77555156729067 -91.050379959367632,18.78098019908462 -91.053884243436883,18.782265253732824 -91.054797149806319,18.779180436569636</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 20</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">49.713484952368</SimpleData>
+			<SimpleData name="NumParcela">20</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.063762684914195,18.768084124157149 -91.064981261777376,18.763761877431392 -91.060286585245706,18.763088721713444 -91.055583777100935,18.762415944402481 -91.054356415780674,18.766802602753813 -91.060797849810456,18.767687767405523 -91.063762684914195,18.768084124157149</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 21</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.936422157536</SimpleData>
+			<SimpleData name="NumParcela">21</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.054356415780674,18.766802602753813 -91.055583777100935,18.762415944402481 -91.050886768927342,18.761709678122067 -91.049700201525425,18.766092774476146 -91.054356415780674,18.766802602753813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 22</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.879244107239</SimpleData>
+			<SimpleData name="NumParcela">22</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.049700201525425,18.766092774476146 -91.050886768927342,18.761709678122067 -91.046189816548477,18.761079424480887 -91.045003083045941,18.765449037904155 -91.049700201525425,18.766092774476146</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 23</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.937830421601</SimpleData>
+			<SimpleData name="NumParcela">23</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.045003083045941,18.765449037904155 -91.046189816548477,18.761079424480887 -91.041488588553946,18.760457077703254 -91.040272494008804,18.76483089718916 -91.045003083045941,18.765449037904155</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 24</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.891459099894</SimpleData>
+			<SimpleData name="NumParcela">24</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.040272494008804,18.76483089718916 -91.041488588553946,18.760457077703254 -91.036832677747825,18.759698745753568 -91.0356057985327,18.764077146235067 -91.040272494008804,18.76483089718916</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 105</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.678374002328</SimpleData>
+			<SimpleData name="NumParcela">105</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.041104547110152,18.72988412192753 -91.042288088280444,18.725562315930102 -91.038544797412541,18.725065112473942 -91.037344210205319,18.729422617823538 -91.041104547110152,18.72988412192753</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 106</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.732127502367</SimpleData>
+			<SimpleData name="NumParcela">106</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.037344210205319,18.729422617823538 -91.038544797412541,18.725065112473942 -91.034783821310896,18.724621454941673 -91.033579286866953,18.728954216249001 -91.037344210205319,18.729422617823538</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 107</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.72600926427</SimpleData>
+			<SimpleData name="NumParcela">107</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.033579286866953,18.728954216249001 -91.034783821310896,18.724621454941673 -91.031026041507985,18.724142317765644 -91.029820933663061,18.728501311431838 -91.033579286866953,18.728954216249001</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 108</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">26.584563998135</SimpleData>
+			<SimpleData name="NumParcela">108</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.070848469672896,18.731633673177164 -91.070778896557684,18.728809488437818 -91.070754190354464,18.727872892824287 -91.06807775886864,18.727664301224692 -91.064814215571417,18.727264699851233 -91.064380623178707,18.730865383386043 -91.067477827679824,18.731237525022653 -91.068892488796692,18.731400965748865 -91.070848469672896,18.731633673177164</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 109</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.867441071266</SimpleData>
+			<SimpleData name="NumParcela">109</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.064380623178707,18.730865383386043 -91.064814215571417,18.727264699851233 -91.059417179811206,18.726639925172318 -91.059034378202057,18.726713548575798 -91.058884281836455,18.726939779936377 -91.058577073115401,18.729567572478164 -91.058510029203859,18.730140993359438 -91.062739290624322,18.730664864681419 -91.064380623178707,18.730865383386043</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 11</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.676513595939</SimpleData>
+			<SimpleData name="NumParcela">11</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.034093056157914,18.769371474106958 -91.035418071761299,18.764674132820765 -91.031593810658165,18.764237897566275 -91.0277104149217,18.763797908169128 -91.028268110190027,18.764380752726677 -91.029555278163983,18.765725940605702 -91.03137823857405,18.767631025565624 -91.032176637514198,18.768465372358495 -91.034093056157914,18.769371474106958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 110</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">12.417138602663</SimpleData>
+			<SimpleData name="NumParcela">110</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.070754190354464,18.727872892824287 -91.071689991565776,18.723960889180358 -91.071042782835264,18.723592471395381 -91.069320104572284,18.724000158445953 -91.069194837422103,18.724133383150146 -91.069069557420775,18.724266621207207 -91.068812825188274,18.724696875747185 -91.068083975595997,18.727587839677387 -91.06807775886864,18.727664301224692 -91.070754190354464,18.727872892824287</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 8</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.044932485138</SimpleData>
+			<SimpleData name="NumParcela">8</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.056606245185407,18.776210839213018 -91.057868558116041,18.771821218659035 -91.053167498434135,18.771177351744313 -91.051891545269569,18.77555156729067 -91.055667036748901,18.776078948052309 -91.056606245185407,18.776210839213018</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 80</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">6.347417667446</SimpleData>
+			<SimpleData name="NumParcela">80</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.024712618646944,18.73901014546696 -91.02485888832787,18.737628818352835 -91.020992284652436,18.737025064346017 -91.020835236766786,18.738404374925292 -91.024712618646944,18.73901014546696</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 81</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.296708826092</SimpleData>
+			<SimpleData name="NumParcela">81</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.024894825132662,18.737292007608556 -91.025339788934204,18.733136100249002 -91.02149104442455,18.732644552001148 -91.020992284652436,18.737025064346017 -91.02485888832787,18.737628818352835 -91.024894825132662,18.737292007608556</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 82</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.849282762047</SimpleData>
+			<SimpleData name="NumParcela">82</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.042473112967414,18.739099507392567 -91.043661873072111,18.734724400177189 -91.03991158458328,18.73425619617343 -91.038705615294973,18.738626719476414 -91.042473112967414,18.739099507392567</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 83</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.813402003944</SimpleData>
+			<SimpleData name="NumParcela">83</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.038705615294973,18.738626719476414 -91.03991158458328,18.73425619617343 -91.036143717207906,18.733786225478028 -91.034967731293293,18.738162759267631 -91.038705615294973,18.738626719476414</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 84</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.624277599932</SimpleData>
+			<SimpleData name="NumParcela">84</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.034967731293293,18.738162759267631 -91.036143717207906,18.733786225478028 -91.032381876540128,18.733337780136534 -91.032299065977583,18.733640459506496 -91.032174834680021,18.733631592244443 -91.031044420848914,18.73774997435504 -91.034469514174305,18.738108239131087 -91.034967731293293,18.738162759267631</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 85</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">13.885017001134</SimpleData>
+			<SimpleData name="NumParcela">85</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.031044420848914,18.73774997435504 -91.032174834680021,18.733631592244443 -91.029129833150222,18.733249182814824 -91.028653962073406,18.737777031421629 -91.029618601388705,18.737766205548986 -91.031044420848914,18.73774997435504</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 86</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.076573402212</SimpleData>
+			<SimpleData name="NumParcela">86</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.028653962073406,18.737777031421629 -91.029129833150222,18.733249182814824 -91.028844387938946,18.733207386383768 -91.025391178683577,18.7327918909637 -91.025339788934204,18.733136100249002 -91.024894825132662,18.737292007608556 -91.028653962073406,18.737777031421629</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 87</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">11.007338587219</SimpleData>
+			<SimpleData name="NumParcela">87</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.061599845385857,18.740559680999223 -91.062227783624749,18.738243827512235 -91.057326495994928,18.738311822893742 -91.05689851807503,18.7398528978045 -91.061599845385857,18.740559680999223</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 88</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.797567196406</SimpleData>
+			<SimpleData name="NumParcela">88</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.05811451432875,18.735485215347278 -91.057889280952807,18.735450293362316 -91.053432228678759,18.734804707374799 -91.052230853845359,18.739169304586326 -91.05689851807503,18.7398528978045 -91.057326495994928,18.738311822893742 -91.05811451432875,18.735485215347278</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 89</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.883795088556</SimpleData>
+			<SimpleData name="NumParcela">89</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.052230853845359,18.739169304586326 -91.053432228678759,18.734804707374799 -91.052271742103713,18.734636602946374 -91.048735801218086,18.734139466637657 -91.047537483597551,18.738512141676278 -91.052230853845359,18.739169304586326</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 9</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.99281342523</SimpleData>
+			<SimpleData name="NumParcela">9</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.051891545269569,18.77555156729067 -91.053167498434135,18.771177351744313 -91.048472885150588,18.770453668722631 -91.047211874834645,18.774821883521081 -91.051891545269569,18.77555156729067</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 12</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">45.113519905445</SimpleData>
+			<SimpleData name="NumParcela">12</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.067278190531056,18.773095945561312 -91.068466461186063,18.768754922400191 -91.063762684914195,18.768084124157149 -91.060797849810456,18.767687767405523 -91.057868558116041,18.771821218659035 -91.062574583968214,18.772456963277062 -91.067278190531056,18.773095945561312</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 13</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">29.504425167793</SimpleData>
+			<SimpleData name="NumParcela">13</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.057868558116041,18.771821218659035 -91.060797849810456,18.767687767405523 -91.054356415780674,18.766802602753813 -91.053167498434135,18.771177351744313 -91.057868558116041,18.771821218659035</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 14</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.849838255768</SimpleData>
+			<SimpleData name="NumParcela">14</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.053167498434135,18.771177351744313 -91.054356415780674,18.766802602753813 -91.049700201525425,18.766092774476146 -91.048472885150588,18.770453668722631 -91.053167498434135,18.771177351744313</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 16</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.987070538462</SimpleData>
+			<SimpleData name="NumParcela">16</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.043767644527847,18.769820304295074 -91.045003083045941,18.765449037904155 -91.040272494008804,18.76483089718916 -91.03905376948903,18.769204358096459 -91.043767644527847,18.769820304295074</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 66</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.11292526721</SimpleData>
+			<SimpleData name="NumParcela">66</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.049840294452437,18.747961683350152 -91.051040421023984,18.743557389688632 -91.046342762291914,18.742884894000355 -91.045138207828458,18.747290050574406 -91.049840294452437,18.747961683350152</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 67</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.921603557467</SimpleData>
+			<SimpleData name="NumParcela">67</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.045138207828458,18.747290050574406 -91.046342762291914,18.742884894000355 -91.04165041403165,18.742232926549477 -91.040457797620249,18.746592187132265 -91.045138207828458,18.747290050574406</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 68</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.964633912475</SimpleData>
+			<SimpleData name="NumParcela">68</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.041283787234562,18.743483700346925 -91.042473112967414,18.739099507392567 -91.038705615294973,18.738626719476414 -91.037606046249024,18.742634051193932 -91.037508349987874,18.743004952939341 -91.041283787234562,18.743483700346925</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 69</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.771797138941</SimpleData>
+			<SimpleData name="NumParcela">69</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.037606046249024,18.742634051193932 -91.038705615294973,18.738626719476414 -91.034967731293293,18.738162759267631 -91.034469514174305,18.738108239131087 -91.033105843354789,18.742430341146733 -91.033181015322697,18.74243225157203 -91.037606046249024,18.742634051193932</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 1</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.437974194364</SimpleData>
+			<SimpleData name="NumParcela">1</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.059732448012895,18.784389477242847 -91.060735005469681,18.780679235212855 -91.059956125098509,18.780484093372436 -91.059431687541732,18.780350158075503 -91.054797149806319,18.779180436569636 -91.053884243436883,18.782265253732824 -91.054120347299261,18.782351546975818 -91.059516949100384,18.78432380300789 -91.059732448012895,18.784389477242847</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 10</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">10.900220273396</SimpleData>
+			<SimpleData name="NumParcela">10</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.038114759839019,18.772600108810131 -91.03905376948903,18.769204358096459 -91.034386229977173,18.768441895500942 -91.034119514526566,18.769383035501161 -91.036096963599704,18.770347349988526 -91.036429687396307,18.77071882424567 -91.03750269569521,18.771916778601135 -91.038114759839019,18.772600108810131</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 100</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">35.266451193281</SimpleData>
+			<SimpleData name="NumParcela">100</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.049035142412066,18.729619058523962 -91.049394471429565,18.72644960288039 -91.046084027907696,18.72602911823569 -91.044039357038116,18.733479765726671 -91.048516258993203,18.734108902080859 -91.048780211666283,18.73185428962713 -91.048904838685402,18.730737895837997 -91.049035142412066,18.729619058523962</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 101</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.260076078298</SimpleData>
+			<SimpleData name="NumParcela">101</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.069154445804998,18.734109864504294 -91.068892488796692,18.731400965748865 -91.067477827679824,18.731237525022653 -91.067242108971243,18.733947636346812 -91.069154445804998,18.734109864504294</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 102</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">18.223129551351</SimpleData>
+			<SimpleData name="NumParcela">102</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.062442482305755,18.734323686420701 -91.062739290624322,18.730664864681419 -91.058510029203859,18.730140993359438 -91.058402872750378,18.731057517403769 -91.058322564366776,18.731744427587106 -91.058298057775687,18.731954028536652 -91.05809791265186,18.733665907603203 -91.062442482305755,18.734323686420701</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 7</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.028335931633</SimpleData>
+			<SimpleData name="NumParcela">7</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.061330670287688,18.776827456357747 -91.062574583968214,18.772456963277062 -91.057868558116041,18.771821218659035 -91.056606245185407,18.776210839213018 -91.060450451456731,18.776714051635214 -91.061330670287688,18.776827456357747</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 70</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.129549652388</SimpleData>
+			<SimpleData name="NumParcela">70</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.033105843354789,18.742430341146733 -91.034469514174305,18.738108239131087 -91.031044420848914,18.73774997435504 -91.029618601388705,18.737766205548986 -91.029021159898704,18.742020073632979 -91.033105843354789,18.742430341146733</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 71</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.59371221093</SimpleData>
+			<SimpleData name="NumParcela">71</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.029021159898704,18.742020073632979 -91.029618601388705,18.737766205548986 -91.028653962073406,18.737777031421629 -91.024894825132662,18.737292007608556 -91.02485888832787,18.737628818352835 -91.024712618646944,18.73901014546696 -91.024644547713763,18.739645215030528 -91.024866286739737,18.739661386240829 -91.024672419795877,18.741572051891172 -91.029021159898704,18.742020073632979</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 72</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">3.462923907699</SimpleData>
+			<SimpleData name="NumParcela">72</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.076538245692802,18.74723285697625 -91.07526445333869,18.744143011838691 -91.074499917210176,18.746945703873699 -91.076538245692802,18.74723285697625</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 73</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">16.066434571157</SimpleData>
+			<SimpleData name="NumParcela">73</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.074499917210176,18.746945703873699 -91.07526445333869,18.744143011838691 -91.070577909164697,18.743425781844607 -91.069809042187046,18.746264494468203 -91.074499917210176,18.746945703873699</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 74</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">13.456227461189</SimpleData>
+			<SimpleData name="NumParcela">74</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.069809042187046,18.746264494468203 -91.070577909164697,18.743425781844607 -91.066654987552724,18.743195519988181 -91.065302738076696,18.745601403228221 -91.069809042187046,18.746264494468203</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 104</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.622067768585</SimpleData>
+			<SimpleData name="NumParcela">104</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.044862846990753,18.730353615927754 -91.046046098533324,18.726026156832944 -91.042288088280444,18.725562315930102 -91.041104547110152,18.72988412192753 -91.044862846990753,18.730353615927754</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 75</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">35.707598623065</SimpleData>
+			<SimpleData name="NumParcela">75</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.063144452114614,18.745346295619438 -91.062890905274941,18.740744802034865 -91.061599845385857,18.740559680999223 -91.05689851807503,18.7398528978045 -91.05573615567458,18.744233128811093 -91.057580825939056,18.744518742039631 -91.060412350974801,18.744950033446489 -91.063144452114614,18.745346295619438</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 76</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.897513402204</SimpleData>
+			<SimpleData name="NumParcela">76</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.05573615567458,18.744233128811093 -91.05689851807503,18.7398528978045 -91.052230853845359,18.739169304586326 -91.051040421023984,18.743557389688632 -91.05573615567458,18.744233128811093</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 77</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.940131316349</SimpleData>
+			<SimpleData name="NumParcela">77</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.051040421023984,18.743557389688632 -91.052230853845359,18.739169304586326 -91.047537483597551,18.738512141676278 -91.046342762291914,18.742884894000355 -91.051040421023984,18.743557389688632</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 78</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.909595826037</SimpleData>
+			<SimpleData name="NumParcela">78</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.046342762291914,18.742884894000355 -91.047537483597551,18.738512141676278 -91.04283163203776,18.737855988894797 -91.04165041403165,18.742232926549477 -91.046342762291914,18.742884894000355</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 79</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">3.664437116648</SimpleData>
+			<SimpleData name="NumParcela">79</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.024644547713763,18.739645215030528 -91.024712618646944,18.73901014546696 -91.020835236766786,18.738404374925292 -91.020726480484555,18.739359488697687 -91.024644547713763,18.739645215030528</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 36</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.89110226457</SimpleData>
+			<SimpleData name="NumParcela">36</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.034065268197693,18.755475763776655 -91.035286220218666,18.75109016917656 -91.034341936812837,18.750980731875188 -91.031521159703289,18.75067683760787 -91.030296196488862,18.755062737252096 -91.034065268197693,18.755475763776655</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 37</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.200076108788</SimpleData>
+			<SimpleData name="NumParcela">37</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.030296196488862,18.755062737252096 -91.031521159703289,18.75067683760787 -91.02942833340461,18.750458641685533 -91.027508532880162,18.750254488218477 -91.026253429294485,18.754621742253033 -91.030296196488862,18.755062737252096</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 38</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.389899908318</SimpleData>
+			<SimpleData name="NumParcela">38</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.070953375359565,18.760073620085976 -91.071525598035763,18.757879062872455 -91.071194145240952,18.755553479038301 -91.067597224342649,18.755044550453633 -91.067351885607991,18.75525618867249 -91.066253665483401,18.759386728766568 -91.070953375359565,18.760073620085976</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-91.070930296947154,18.758731334328637 -91.070832259569272,18.759292506976376 -91.070279964449767,18.758924360945041 -91.07053434500996,18.75864502254877 -91.070930296947154,18.758731334328637</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 31</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.873847017577</SimpleData>
+			<SimpleData name="NumParcela">31</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.050886768927342,18.761709678122067 -91.05213899088632,18.75734567129491 -91.047432495240358,18.756714717208013 -91.046189816548477,18.761079424480887 -91.050886768927342,18.761709678122067</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 49</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.433842002355</SimpleData>
+			<SimpleData name="NumParcela">49</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.073055213267139,18.752206819673962 -91.073298802483336,18.75131795075885 -91.068606077357174,18.750646999746188 -91.067788604881883,18.753680117622203 -91.068228791405602,18.753753927653367 -91.067597224342649,18.755044550453633 -91.071194145240952,18.755553479038301 -91.072126258073723,18.752065324579348 -91.073055213267139,18.752206819673962</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 65</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.950177299277</SimpleData>
+			<SimpleData name="NumParcela">65</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.054541357744156,18.748592709715481 -91.05573615567458,18.744233128811093 -91.051040421023984,18.743557389688632 -91.049840294452437,18.747961683350152 -91.054541357744156,18.748592709715481</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 15</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.87892510719</SimpleData>
+			<SimpleData name="NumParcela">15</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.048472885150588,18.770453668722631 -91.049700201525425,18.766092774476146 -91.045003083045941,18.765449037904155 -91.043767644527847,18.769820304295074 -91.048472885150588,18.770453668722631</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 103</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">4.973797994963</SimpleData>
+			<SimpleData name="NumParcela">103</SimpleData>
+			<SimpleData name="IdNucleoAgrario">81</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. LA CRISTALINA</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.052663709691274,18.731240883916968 -91.052792220628334,18.730127479823757 -91.049035142412066,18.729619058523962 -91.048904838685402,18.730737895837997 -91.052663709691274,18.731240883916968</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

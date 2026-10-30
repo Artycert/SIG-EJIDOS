@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Parcelas - CAMPECHE - CARMEN</name>
+	<Schema name="CapaParcelas" id="parcelas_id">
+	<SimpleField type="string" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NumParcela"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Tipo"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="EntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff115923</color>
+</LineStyle>
+<PolyStyle>
+	<color>8c47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>AA47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logo_pie_pagina.png" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Parcelas</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">No. Parcela : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NumParcela]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Tipo : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Tipo]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>Parcela No. 1</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.932926191164</SimpleData>
+			<SimpleData name="NumParcela">1</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.366657067880766,18.185975214498466 -91.368074034596575,18.173106245608604 -91.367514842711586,18.173119412454241 -91.364584209996409,18.185716955673005 -91.366657067880766,18.185975214498466</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 10</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.366721725334</SimpleData>
+			<SimpleData name="NumParcela">10</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.364420674234907,18.177171789283168 -91.366449653198202,18.173112626647089 -91.363256242425479,18.17310145932802 -91.362292982766519,18.173101427989298 -91.361017974537091,18.175705422911275 -91.360311383211126,18.17691153813 -91.360271463477574,18.176982541471446 -91.364420674234907,18.177171789283168</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 11</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.346568324374</SimpleData>
+			<SimpleData name="NumParcela">11</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.360311383211126,18.17691153813 -91.361017974537091,18.175705422911275 -91.36006343556862,18.174704756953687 -91.355062174384273,18.169562739287709 -91.353344113635259,18.171889498996428 -91.360311383211126,18.17691153813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 12</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">18.038799714683</SimpleData>
+			<SimpleData name="NumParcela">12</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.365092873048653,18.167531226386131 -91.363200769863028,18.166236327264421 -91.362477579316376,18.168416872762069 -91.361217675160887,18.171802236341019 -91.36006343556862,18.174704756953687 -91.361017974537091,18.175705422911275 -91.362292982766519,18.173101427989298 -91.365092873048653,18.167531226386131</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 13</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.53793056802</SimpleData>
+			<SimpleData name="NumParcela">13</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.36006343556862,18.174704756953687 -91.361217675160887,18.171802236341019 -91.35693228404223,18.167034531621173 -91.355062174384273,18.169562739287709 -91.36006343556862,18.174704756953687</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 14</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.673179556524</SimpleData>
+			<SimpleData name="NumParcela">14</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.368074034596575,18.173106245608604 -91.368723771740591,18.167304930260663 -91.367971915882265,18.166766057163663 -91.363256242425479,18.17310145932802 -91.366449653198202,18.173112626647089 -91.366980526920287,18.1731125315107 -91.367514842711586,18.173119412454241 -91.368074034596575,18.173106245608604</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 31</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.890912061474</SimpleData>
+			<SimpleData name="NumParcela">31</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.360317845450069,18.162353167573688 -91.361645741789999,18.160563355027421 -91.352447085978582,18.158506435969482 -91.352175206732539,18.160684859017199 -91.360317845450069,18.162353167573688</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 33</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.035669067791</SimpleData>
+			<SimpleData name="NumParcela">33</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.343299202236253,18.161614051859829 -91.343533808069296,18.159764895605715 -91.341262470880267,18.159454371219869 -91.34101457606674,18.161316103137903 -91.343299202236253,18.161614051859829</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 34</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">9.516878565479</SimpleData>
+			<SimpleData name="NumParcela">34</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.38503111495163,18.157801862380484 -91.385352360445253,18.154999328435995 -91.384052456984463,18.154824377180976 -91.382793722166184,18.158780601428976 -91.384752379157916,18.160129398850206 -91.38503111495163,18.157801862380484</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 35</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">4.618614367747</SimpleData>
+			<SimpleData name="NumParcela">35</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.384052456984463,18.154824377180976 -91.383707860066153,18.154772716058911 -91.381397782091554,18.157751295951439 -91.382574254958911,18.157876002365981 -91.382052173802023,18.158806321215277 -91.382669539772621,18.159168429688869 -91.382793722166184,18.158780601428976 -91.384052456984463,18.154824377180976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 36</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.353205004185</SimpleData>
+			<SimpleData name="NumParcela">36</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.361645741789999,18.160563355027421 -91.36280431853551,18.159012397391034 -91.352727917689649,18.156441772497619 -91.352447085978582,18.158506435969482 -91.361645741789999,18.160563355027421</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 37</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">4.084481379256</SimpleData>
+			<SimpleData name="NumParcela">37</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.379388213827582,18.156517513052474 -91.378227792180525,18.155730264598191 -91.376720767162752,18.157514520521492 -91.376648703474018,18.157616348123916 -91.377815948854021,18.158432722269886 -91.379388213827582,18.156517513052474</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 15</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.322934845634</SimpleData>
+			<SimpleData name="NumParcela">15</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.363256242425479,18.17310145932802 -91.367971915882265,18.166766057163663 -91.363954932041608,18.163964547486746 -91.363572259996744,18.165108355167799 -91.363200769863028,18.166236327264421 -91.365092873048653,18.167531226386131 -91.362292982766519,18.173101427989298 -91.363256242425479,18.17310145932802</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 59</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.451345625334</SimpleData>
+			<SimpleData name="NumParcela">59</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.369568289510937,18.149890985086564 -91.372688011020387,18.14567587696915 -91.36939141222085,18.143430841738311 -91.368233477516796,18.145019527400319 -91.366266683304531,18.147652673743501 -91.369568289510937,18.149890985086564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 6</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.198605012764</SimpleData>
+			<SimpleData name="NumParcela">6</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.362362847978645,18.181228010790381 -91.364420674234907,18.177171789283168 -91.360271463477574,18.176982541471446 -91.359295547888692,18.178690089159495 -91.358107738292389,18.180826060533995 -91.362362847978645,18.181228010790381</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 60</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.621771423523</SimpleData>
+			<SimpleData name="NumParcela">60</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.366266683304531,18.147652673743501 -91.368233477516796,18.145019527400319 -91.365639839739998,18.142391224037954 -91.365474902090028,18.143623072242637 -91.359177351061192,18.142845489434936 -91.359850685295115,18.143325811116188 -91.363413190419891,18.145738279082554 -91.366266683304531,18.147652673743501</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 61</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.521713140572</SimpleData>
+			<SimpleData name="NumParcela">61</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.386285724111531,18.147214518177787 -91.386388279600311,18.146358469828176 -91.383614817809359,18.145336880619947 -91.383093686506513,18.147590520576934 -91.385111507124748,18.147338147085261 -91.386285724111531,18.147214518177787</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 16</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.76629892613</SimpleData>
+			<SimpleData name="NumParcela">16</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.361217675160887,18.171802236341019 -91.362477579316376,18.168416872762069 -91.359164097181832,18.164412393562625 -91.359011047355352,18.164259182460956 -91.35693228404223,18.167034531621173 -91.361217675160887,18.171802236341019</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 17</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">12.157215218578</SimpleData>
+			<SimpleData name="NumParcela">17</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.363200769863028,18.166236327264421 -91.363572259996744,18.165108355167799 -91.360084557752728,18.163330118046705 -91.359164097181832,18.164412393562625 -91.362477579316376,18.168416872762069 -91.363200769863028,18.166236327264421</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 62</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">2.921526270857</SimpleData>
+			<SimpleData name="NumParcela">62</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.383093686506513,18.147590520576934 -91.383614817809359,18.145336880619947 -91.382721535495506,18.14501521508225 -91.382367293112367,18.146109725567108 -91.382146069400235,18.147708490888519 -91.383093686506513,18.147590520576934</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 63</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.925665327401</SimpleData>
+			<SimpleData name="NumParcela">63</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.380644754464129,18.144256981939144 -91.381135476189186,18.142526497558116 -91.37934914749772,18.141935974956766 -91.379079113187217,18.143701591145017 -91.375207442878889,18.142379162319585 -91.3739659969917,18.144051148994755 -91.378069562269857,18.14667768402547 -91.37838603426934,18.146363456689681 -91.379744210244326,18.147177132829281 -91.3802898927363,18.14540833448546 -91.380644754464129,18.144256981939144</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 64</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">3.076785389914</SimpleData>
+			<SimpleData name="NumParcela">64</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.382367293112367,18.146109725567108 -91.382721535495506,18.14501521508225 -91.382409632849871,18.144866659158904 -91.380644754464129,18.144256981939144 -91.3802898927363,18.14540833448546 -91.382367293112367,18.146109725567108</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 65</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">8.853593124128</SimpleData>
+			<SimpleData name="NumParcela">65</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.386388279600311,18.146358469828176 -91.386617722106621,18.144439372283816 -91.382916087976383,18.143143023979757 -91.382409632849871,18.144866659158904 -91.382721535495506,18.14501521508225 -91.383614817809359,18.145336880619947 -91.386388279600311,18.146358469828176</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 38</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.744558905252</SimpleData>
+			<SimpleData name="NumParcela">38</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.378227792180525,18.155730264598191 -91.380399057458618,18.153083380307521 -91.376758478134278,18.152992789083093 -91.374410547844732,18.155548231367053 -91.372940812783114,18.157162974503713 -91.376720767162752,18.157514520521492 -91.378227792180525,18.155730264598191</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 4</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.575028563589</SimpleData>
+			<SimpleData name="NumParcela">4</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.36022242443255,18.185177971349166 -91.362362847978645,18.181228010790381 -91.358107738292389,18.180826060533995 -91.356426903307749,18.183772340199347 -91.35595053663792,18.184631527498645 -91.36022242443255,18.185177971349166</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 41</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.106280878318</SimpleData>
+			<SimpleData name="NumParcela">41</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.36280431853551,18.159012397391034 -91.363931820861893,18.157453865978066 -91.352985167118945,18.15460323514208 -91.352727917689649,18.156441772497619 -91.36280431853551,18.159012397391034</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 67</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">7.496992464743</SimpleData>
+			<SimpleData name="NumParcela">67</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.379079113187217,18.143701591145017 -91.37934914749772,18.141935974956766 -91.376304633503693,18.140907296985478 -91.375207442878889,18.142379162319585 -91.379079113187217,18.143701591145017</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 68</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">37.624720203101</SimpleData>
+			<SimpleData name="NumParcela">68</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.372688011020387,18.14567587696915 -91.375162473641481,18.142352850523029 -91.36817441413379,18.139906839983624 -91.366084810528505,18.139203474846319 -91.365639839739998,18.142391224037954 -91.368233477516796,18.145019527400319 -91.36939141222085,18.143430841738311 -91.372688011020387,18.14567587696915</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 69</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">44.428140673151</SimpleData>
+			<SimpleData name="NumParcela">69</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.386617722106621,18.144439372283816 -91.387429246180417,18.137522030857895 -91.381703405359701,18.135247672761579 -91.380552910592613,18.136740161702232 -91.380748453290764,18.136795243417232 -91.380437159323009,18.138564582767824 -91.383024293868786,18.139697823902925 -91.382795446232166,18.14149261815437 -91.383031818526788,18.141593318422409 -91.382916087976383,18.143143023979757 -91.386617722106621,18.144439372283816</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 7</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.779292248544</SimpleData>
+			<SimpleData name="NumParcela">7</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.358107738292389,18.180826060533995 -91.359295547888692,18.178690089159495 -91.355591379707292,18.176068643326609 -91.353080813654572,18.17944713835556 -91.354640350996348,18.180508616625886 -91.356109304387175,18.181525531332195 -91.355663514941355,18.183421463880364 -91.356426903307749,18.183772340199347 -91.358107738292389,18.180826060533995</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 70</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">7.172122467418</SimpleData>
+			<SimpleData name="NumParcela">70</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.382916087976383,18.143143023979757 -91.383031818526788,18.141593318422409 -91.382795446232166,18.14149261815437 -91.379569219965447,18.140114838053766 -91.37934914749772,18.141935974956766 -91.381135476189186,18.142526497558116 -91.382916087976383,18.143143023979757</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 71</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.754108352618</SimpleData>
+			<SimpleData name="NumParcela">71</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.37934914749772,18.141935974956766 -91.379569219965447,18.140114838053766 -91.379356773817861,18.140038496425255 -91.377457100022937,18.139387332813108 -91.376304633503693,18.140907296985478 -91.37934914749772,18.141935974956766</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 72</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">16.242374069855</SimpleData>
+			<SimpleData name="NumParcela">72</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.375162473641481,18.142352850523029 -91.376248028145369,18.140866927322193 -91.368406809679428,18.138113955628139 -91.36817441413379,18.139906839983624 -91.375162473641481,18.142352850523029</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 73</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">7.735689788503</SimpleData>
+			<SimpleData name="NumParcela">73</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.382795446232166,18.14149261815437 -91.383024293868786,18.139697823902925 -91.380437159323009,18.138564582767824 -91.379517718273775,18.138231869231227 -91.379356773817861,18.140038496425255 -91.379569219965447,18.140114838053766 -91.382795446232166,18.14149261815437</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 74</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">3.146745879738</SimpleData>
+			<SimpleData name="NumParcela">74</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.379356773817861,18.140038496425255 -91.379517718273775,18.138231869231227 -91.378547857808414,18.137884287892039 -91.377457100022937,18.139387332813108 -91.379356773817861,18.140038496425255</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 18</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.828702158262</SimpleData>
+			<SimpleData name="NumParcela">18</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.368978586780145,18.165056951785097 -91.369200882769903,18.162956146758052 -91.368902854438986,18.162811923081613 -91.365699325416657,18.160857186445345 -91.364159651273766,18.163284389818259 -91.363954932041608,18.163964547486746 -91.367971915882265,18.166766057163663 -91.368723771740591,18.167304930260663 -91.368978586780145,18.165056951785097</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 19</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">52.412396926797</SimpleData>
+			<SimpleData name="NumParcela">19</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.384369825519514,18.163392941818628 -91.384752379157916,18.160129398850206 -91.382793722166184,18.158780601428976 -91.382669539772621,18.159168429688869 -91.382052173802023,18.158806321215277 -91.382574254958911,18.157876002365981 -91.381397782091554,18.157751295951439 -91.381342248987622,18.157814429794044 -91.378448463745258,18.161595694961303 -91.377215392092637,18.165890826881625 -91.383990874303151,18.166596723944743 -91.384369825519514,18.163392941818628</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 2</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.193183080465</SimpleData>
+			<SimpleData name="NumParcela">2</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.367514842711586,18.173119412454241 -91.366980526920287,18.1731125315107 -91.362434573646311,18.185447502803566 -91.364584209996409,18.185716955673005 -91.367514842711586,18.173119412454241</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 20</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.456454132086</SimpleData>
+			<SimpleData name="NumParcela">20</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.377215392092637,18.165890826881625 -91.378448463745258,18.161595694961303 -91.373941053967101,18.161090257587571 -91.372730796318265,18.165447999976397 -91.377215392092637,18.165890826881625</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 42</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.875912235977</SimpleData>
+			<SimpleData name="NumParcela">42</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.352096561862822,18.160833757839733 -91.352286680366333,18.158977525507481 -91.344260529220861,18.157976529751878 -91.341493679084451,18.15756938172909 -91.341262470880267,18.159454371219869 -91.343533808069296,18.159764895605715 -91.352096561862822,18.160833757839733</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 43</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.19912982263</SimpleData>
+			<SimpleData name="NumParcela">43</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.363931820861893,18.157453865978066 -91.36499922257795,18.156039284012444 -91.353219236048744,18.152875562215261 -91.352985167118945,18.15460323514208 -91.363931820861893,18.157453865978066</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 44</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">17.817601206001</SimpleData>
+			<SimpleData name="NumParcela">44</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.352286680366333,18.158977525507481 -91.352577591409613,18.157132528713777 -91.344551697332037,18.156103796228965 -91.344260529220861,18.157976529751878 -91.352286680366333,18.158977525507481</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 45</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">6.208817908303</SimpleData>
+			<SimpleData name="NumParcela">45</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.344260529220861,18.157976529751878 -91.344551697332037,18.156103796228965 -91.341746946397407,18.155713756883753 -91.341493679084451,18.15756938172909 -91.344260529220861,18.157976529751878</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 46</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">44.208345713123</SimpleData>
+			<SimpleData name="NumParcela">46</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.385444209942037,18.154308967837466 -91.386285724111531,18.147214518177787 -91.385111507124748,18.147338147085261 -91.380399057458618,18.153083380307521 -91.378227792180525,18.155730264598191 -91.379388213827582,18.156517513052474 -91.381342248987622,18.157814429794044 -91.381397782091554,18.157751295951439 -91.383707860066153,18.154772716058911 -91.384052456984463,18.154824377180976 -91.385352360445253,18.154999328435995 -91.385444209942037,18.154308967837466</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 47</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.16884554953</SimpleData>
+			<SimpleData name="NumParcela">47</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.376758478134278,18.152992789083093 -91.377581864127748,18.152081824011788 -91.374454861783363,18.150286674653813 -91.374024033465432,18.15069203603224 -91.37103480623702,18.153570084912186 -91.374410547844732,18.155548231367053 -91.376758478134278,18.152992789083093</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 48</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.572676553605</SimpleData>
+			<SimpleData name="NumParcela">48</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.37103480623702,18.153570084912186 -91.374024033465432,18.15069203603224 -91.370644622731874,18.148533508401297 -91.366851984421771,18.153687136674751 -91.369349937257866,18.155143022170584 -91.37103480623702,18.153570084912186</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 49</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.296898646205</SimpleData>
+			<SimpleData name="NumParcela">49</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.36499922257795,18.156039284012444 -91.365968508832651,18.154736741663186 -91.353452181331193,18.151232893510979 -91.353219236048744,18.152875562215261 -91.36499922257795,18.156039284012444</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 5</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">4.977456904512</SimpleData>
+			<SimpleData name="NumParcela">5</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.355663514941355,18.183421463880364 -91.356109304387175,18.181525531332195 -91.354640350996348,18.180508616625886 -91.353636817906491,18.181908552390926 -91.353941635248873,18.182587377994381 -91.35419017871348,18.182706246158347 -91.355032794607311,18.183112561423773 -91.355663514941355,18.183421463880364</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 50</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.395196175091</SimpleData>
+			<SimpleData name="NumParcela">50</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.352577591409613,18.157132528713777 -91.352836402923671,18.155531023551291 -91.341941257532355,18.154188924617117 -91.341746946397407,18.155713756883753 -91.344551697332037,18.156103796228965 -91.352577591409613,18.157132528713777</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 51</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.168928026599</SimpleData>
+			<SimpleData name="NumParcela">51</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.385111507124748,18.147338147085261 -91.383093686506513,18.147590520576934 -91.382146069400235,18.147708490888519 -91.377763740337087,18.152154965036203 -91.377581864127748,18.152081824011788 -91.376758478134278,18.152992789083093 -91.380399057458618,18.153083380307521 -91.385111507124748,18.147338147085261</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 52</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.752081453701</SimpleData>
+			<SimpleData name="NumParcela">52</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.365968508832651,18.154736741663186 -91.366925856202911,18.153477561732004 -91.361744336382344,18.151991036139162 -91.355037318658674,18.150082218425549 -91.353672724568369,18.14961811873162 -91.353452181331193,18.151232893510979 -91.365968508832651,18.154736741663186</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 53</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">29.175585327838</SimpleData>
+			<SimpleData name="NumParcela">53</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.382146069400235,18.147708490888519 -91.382367293112367,18.146109725567108 -91.3802898927363,18.14540833448546 -91.379744210244326,18.147177132829281 -91.37838603426934,18.146363456689681 -91.378069562269857,18.14667768402547 -91.374454861783363,18.150286674653813 -91.377581864127748,18.152081824011788 -91.377763740337087,18.152154965036203 -91.382146069400235,18.147708490888519</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 54</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">28.988386738571</SimpleData>
+			<SimpleData name="NumParcela">54</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.374454861783363,18.150286674653813 -91.378069562269857,18.14667768402547 -91.3739659969917,18.144051148994755 -91.370644622731874,18.148533508401297 -91.374024033465432,18.15069203603224 -91.374454861783363,18.150286674653813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 56</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.268748157169</SimpleData>
+			<SimpleData name="NumParcela">56</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.361744336382344,18.151991036139162 -91.363609247706435,18.149354413215928 -91.361581786510442,18.148706412393803 -91.360638629387125,18.150159967610342 -91.357162645758081,18.1478180378482 -91.355037318658674,18.150082218425549 -91.361744336382344,18.151991036139162</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 57</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">32.755084574367</SimpleData>
+			<SimpleData name="NumParcela">57</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.359850685295115,18.143325811116188 -91.359177351061192,18.142845489434936 -91.354634379496943,18.142291471961325 -91.353672724568369,18.14961811873162 -91.355037318658674,18.150082218425549 -91.357162645758081,18.1478180378482 -91.359850685295115,18.143325811116188</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 21</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.704214897533</SimpleData>
+			<SimpleData name="NumParcela">21</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.372730796318265,18.165447999976397 -91.373941053967101,18.161090257587571 -91.370158943027761,18.160843770996699 -91.368902854438986,18.162811923081613 -91.369200882769903,18.162956146758052 -91.368978586780145,18.165056951785097 -91.372730796318265,18.165447999976397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 22</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">8.009985840245</SimpleData>
+			<SimpleData name="NumParcela">22</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.363954932041608,18.163964547486746 -91.364159651273766,18.163284389818259 -91.360598694263857,18.162078769892322 -91.359011047355352,18.164259182460956 -91.359164097181832,18.164412393562625 -91.360084557752728,18.163330118046705 -91.363572259996744,18.165108355167799 -91.363954932041608,18.163964547486746</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 23</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.54275454932</SimpleData>
+			<SimpleData name="NumParcela">23</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.356835186630946,18.167092811501128 -91.358783430226666,18.164433927816436 -91.351841892825476,18.163201610637472 -91.351420488281448,18.166406648227074 -91.356835186630946,18.167092811501128</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 24</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.544525451372</SimpleData>
+			<SimpleData name="NumParcela">24</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.351362902138916,18.16639609779223 -91.351605731166771,18.164573353832939 -91.340771392560072,18.163199650041904 -91.340531853050109,18.165027903567026 -91.351362902138916,18.16639609779223</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 25</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.348621094829</SimpleData>
+			<SimpleData name="NumParcela">25</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.370158943027761,18.160843770996699 -91.371361594355008,18.15889974134339 -91.36818598483319,18.156961232755663 -91.366622594088113,18.159351684584188 -91.365699325416657,18.160857186445345 -91.368902854438986,18.162811923081613 -91.370158943027761,18.160843770996699</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 26</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">18.946737084974</SimpleData>
+			<SimpleData name="NumParcela">26</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.365699325416657,18.160857186445345 -91.366622594088113,18.159351684584188 -91.36347976496333,18.158233234149069 -91.360598694263857,18.162078769892322 -91.364159651273766,18.163284389818259 -91.365699325416657,18.160857186445345</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 27</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.888756487927</SimpleData>
+			<SimpleData name="NumParcela">27</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.358783430226666,18.164433927816436 -91.360317845450069,18.162353167573688 -91.352175206732539,18.160684859017199 -91.351841892825476,18.163201610637472 -91.358783430226666,18.164433927816436</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 29</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.973767334914</SimpleData>
+			<SimpleData name="NumParcela">29</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.381342248987622,18.157814429794044 -91.379388213827582,18.156517513052474 -91.377815948854021,18.158432722269886 -91.376648703474018,18.157616348123916 -91.373941053967101,18.161090257587571 -91.378448463745258,18.161595694961303 -91.381342248987622,18.157814429794044</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 3</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.652223812705</SimpleData>
+			<SimpleData name="NumParcela">3</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.366980526920287,18.1731125315107 -91.366449653198202,18.173112626647089 -91.364420674234907,18.177171789283168 -91.362362847978645,18.181228010790381 -91.36022242443255,18.185177971349166 -91.362434573646311,18.185447502803566 -91.366980526920287,18.1731125315107</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 30</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">17.62828400512</SimpleData>
+			<SimpleData name="NumParcela">30</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.376648703474018,18.157616348123916 -91.376720767162752,18.157514520521492 -91.372940812783114,18.157162974503713 -91.371361594355008,18.15889974134339 -91.370158943027761,18.160843770996699 -91.373941053967101,18.161090257587571 -91.376648703474018,18.157616348123916</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 75</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">18.942677557486</SimpleData>
+			<SimpleData name="NumParcela">75</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.376248028145369,18.140866927322193 -91.377386902403885,18.139361576866474 -91.368637333282678,18.136207342225653 -91.368406809679428,18.138113955628139 -91.376248028145369,18.140866927322193</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 76</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.331945598415</SimpleData>
+			<SimpleData name="NumParcela">76</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.377386902403885,18.139361576866474 -91.378488312704718,18.137864531390278 -91.368853242029871,18.134401431601123 -91.368637333282678,18.136207342225653 -91.377386902403885,18.139361576866474</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 58</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">26.053872177063</SimpleData>
+			<SimpleData name="NumParcela">58</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.361581786510442,18.148706412393803 -91.363413190419891,18.145738279082554 -91.359850685295115,18.143325811116188 -91.357162645758081,18.1478180378482 -91.360638629387125,18.150159967610342 -91.361581786510442,18.148706412393803</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 77</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">25.124711877197</SimpleData>
+			<SimpleData name="NumParcela">77</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.36912377464769,18.13238665645461 -91.369438523304993,18.130146682170693 -91.367424163518891,18.12908670175025 -91.366542622558356,18.135658394899824 -91.366084810528505,18.139203474846319 -91.36817441413379,18.139906839983624 -91.368406809679428,18.138113955628139 -91.368637333282678,18.136207342225653 -91.368853242029871,18.134401431601123 -91.36912377464769,18.13238665645461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 78</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.380930608701</SimpleData>
+			<SimpleData name="NumParcela">78</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.381703405359701,18.135247672761579 -91.38072473406433,18.134915976887747 -91.378547857808414,18.137884287892039 -91.379517718273775,18.138231869231227 -91.380437159323009,18.138564582767824 -91.380748453290764,18.136795243417232 -91.380552910592613,18.136740161702232 -91.381703405359701,18.135247672761579</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 79</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.704956277456</SimpleData>
+			<SimpleData name="NumParcela">79</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.378488312704718,18.137864531390278 -91.379592289922854,18.136360641674379 -91.36912377464769,18.13238665645461 -91.368853242029871,18.134401431601123 -91.378488312704718,18.137864531390278</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 8</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.260899207617</SimpleData>
+			<SimpleData name="NumParcela">8</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.360271463477574,18.176982541471446 -91.360311383211126,18.17691153813 -91.353344113635259,18.171889498996428 -91.35207146644494,18.173630317165099 -91.355591379707292,18.176068643326609 -91.359295547888692,18.178690089159495 -91.360271463477574,18.176982541471446</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 80</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">27.237842738875</SimpleData>
+			<SimpleData name="NumParcela">80</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.379592289922854,18.136360641674379 -91.380691901795444,18.134885359183016 -91.369438523304993,18.130146682170693 -91.36912377464769,18.13238665645461 -91.379592289922854,18.136360641674379</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 9</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.15258427145</SimpleData>
+			<SimpleData name="NumParcela">9</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.353080813654572,18.17944713835556 -91.355591379707292,18.176068643326609 -91.35207146644494,18.173630317165099 -91.349549433135053,18.17704347053629 -91.353080813654572,18.17944713835556</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 55</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">39.782054481628</SimpleData>
+			<SimpleData name="NumParcela">55</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.366925856202911,18.153477561732004 -91.369568289510937,18.149890985086564 -91.366266683304531,18.147652673743501 -91.363413190419891,18.145738279082554 -91.361581786510442,18.148706412393803 -91.363609247706435,18.149354413215928 -91.361744336382344,18.151991036139162 -91.366925856202911,18.153477561732004</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 28</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.262155474549</SimpleData>
+			<SimpleData name="NumParcela">28</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.351605731166771,18.164573353832939 -91.351857217357022,18.162687507218976 -91.343299202236253,18.161614051859829 -91.34101457606674,18.161316103137903 -91.340771392560072,18.163199650041904 -91.351605731166771,18.164573353832939</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 32</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">18.857527842485</SimpleData>
+			<SimpleData name="NumParcela">32</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.351857217357022,18.162687507218976 -91.352096561862822,18.160833757839733 -91.343533808069296,18.159764895605715 -91.343299202236253,18.161614051859829 -91.351857217357022,18.162687507218976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 66</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">3.943593988772</SimpleData>
+			<SimpleData name="NumParcela">66</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.382409632849871,18.144866659158904 -91.382916087976383,18.143143023979757 -91.381135476189186,18.142526497558116 -91.380644754464129,18.144256981939144 -91.382409632849871,18.144866659158904</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 39</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.41553891787</SimpleData>
+			<SimpleData name="NumParcela">39</SimpleData>
+			<SimpleData name="IdNucleoAgrario">114</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">VENUSTIANO CARRANZA NUM. 2</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.372940812783114,18.157162974503713 -91.374410547844732,18.155548231367053 -91.37103480623702,18.153570084912186 -91.369349937257866,18.155143022170584 -91.36818598483319,18.156961232755663 -91.371361594355008,18.15889974134339 -91.372940812783114,18.157162974503713</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>
