@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - ESCÁRCEGA</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72918</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.849005169705379,18.343347817486951 -90.8499343029237,18.336177329153518 -90.843671894812687,18.332757420925059 -90.838464856548057,18.339464307538989 -90.839363862791075,18.34106983375014 -90.847674574067383,18.346627939253079 -90.847529977755457,18.345283959105608 -90.849005169705379,18.343347817486951</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72919</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.833147969652998,18.326172073341382 -90.837379901730941,18.328891288946306 -90.831917788357273,18.319316043604893 -90.829886318483034,18.318963878290592 -90.824465479708309,18.318074571486811 -90.82204858849633,18.317652693014455 -90.820509138565654,18.330104205563959 -90.81794676396288,18.328138847891076 -90.819187271360562,18.321601378839574 -90.818092724410022,18.321065496184332 -90.817787126743013,18.329976608130654 -90.819911346745769,18.332142724050954 -90.816597720069268,18.3356042264477 -90.812723179144044,18.331369403979103 -90.808103706367248,18.335816324598614 -90.811315907891711,18.338842397865164 -90.816372948789251,18.3388303524994 -90.821893415739368,18.332156273041065 -90.823074883449095,18.330958849055371 -90.82765941380525,18.32810194301911 -90.826889942056837,18.327530812091076 -90.83009208693916,18.323948598334699 -90.833147969652998,18.326172073341382</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72920</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.789838064047942,18.33878240303417 -90.791410036636435,18.329535973219894 -90.790292427040683,18.329470687977494 -90.790306327753811,18.33354903223147 -90.787134615473889,18.332972690231216 -90.784830805471259,18.332323335335339 -90.779622653111957,18.33070240598283 -90.778620945817067,18.338769053355783 -90.784630365471187,18.338776283471677 -90.789838064047942,18.33878240303417</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72921</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.812492160665997,18.323843392278668 -90.813286734426669,18.31849548845392 -90.811142626020938,18.323789464776869 -90.803925647547999,18.320884358228085 -90.800500956707168,18.328086991772587 -90.804331446990176,18.331775190281878 -90.806293220542869,18.329853116796524 -90.807934244053442,18.326164028754683 -90.80908242726403,18.327246847311688 -90.812492160665997,18.323843392278668</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72922</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.911449443094398,18.31110464558606 -90.911996359178616,18.310723237383257 -90.910250340235407,18.309533982956783 -90.91087424207609,18.308677788992419 -90.909162817222494,18.307856505266379 -90.910600625713727,18.306052442528859 -90.910775652825251,18.306111142740452 -90.91093526579715,18.305824368648075 -90.908336285018351,18.305136509804168 -90.908858548717063,18.302038179521475 -90.90706927859749,18.301106671265682 -90.906964005833842,18.303621766808412 -90.907858984355485,18.304290795088161 -90.905476414258231,18.306759209557889 -90.901779837326046,18.31066207661501 -90.906419788384312,18.314642194299502 -90.911449443094398,18.31110464558606</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72923</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.892341808175075,18.307740128311405 -90.890850429704884,18.308211268840889 -90.890161048761982,18.308051057758608 -90.889987673485948,18.308010369924837 -90.889322340345515,18.307867711698233 -90.891172904296042,18.302803486520535 -90.887799593419587,18.302401427073086 -90.885357400272554,18.307416620319614 -90.887211429571622,18.307620637104939 -90.887426354081072,18.310902297525857 -90.889988838585879,18.31122648907759 -90.892341808175075,18.307740128311405</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72924</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.791916755330519,18.304540804512225 -90.79223638019289,18.30028866160761 -90.783843010241895,18.299240839932686 -90.783618530484105,18.300832150108207 -90.783209282457463,18.303872458765628 -90.787692416095069,18.303322946633429 -90.787354177588938,18.305144956884824 -90.791916755330519,18.304540804512225</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72925</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.901763457109013,18.290647579750583 -90.903472574675448,18.288249428763596 -90.901364989732656,18.288727755391104 -90.901024552522884,18.290637050474025 -90.901590640888571,18.290704516481092 -90.901763457109013,18.290647579750583</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72961</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.904149835380821,18.290735845166399 -90.90422755007971,18.290473182146492 -90.903569963863745,18.290345442183128 -90.902908437746476,18.29068993581518 -90.904149835380821,18.290735845166399</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LUNA</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72962</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">25</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LUNA</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.430255179487247,18.275780004661019 -90.427260742804847,18.197243563150579 -90.283636046119383,18.198721846014219 -90.283034626655265,18.166453733623968 -90.248812149737773,18.166926369660821 -90.248523145422354,18.193445830229994 -90.265080065352379,18.192606503352607 -90.260501606420263,18.283883964720239 -90.430255179487247,18.275780004661019</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Parcelas - CAMPECHE - ESCÁRCEGA</name>
+	<Schema name="CapaParcelas" id="parcelas_id">
+	<SimpleField type="string" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NumParcela"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Tipo"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="EntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff115923</color>
+</LineStyle>
+<PolyStyle>
+	<color>8c47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>AA47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logo_pie_pagina.png" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Parcelas</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">No. Parcela : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NumParcela]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Tipo : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Tipo]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>Parcela No. 1</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.620302125621</SimpleData>
+			<SimpleData name="NumParcela">1</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.790195359437831,18.658004394268744 -90.790202136323913,18.657853565766903 -90.790064394614205,18.657826003207393 -90.789943533939564,18.657801818697497 -90.78548342412617,18.656900953474686 -90.784891464430004,18.66071952631437 -90.789559075563147,18.661663196821131 -90.790164815686651,18.658127429692517 -90.790195359437831,18.658004394268744</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 10</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.850156049983</SimpleData>
+			<SimpleData name="NumParcela">10</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.797792361883481,18.657631621861757 -90.798168628365829,18.652907102293447 -90.794267536929652,18.652599938233774 -90.793992974198147,18.657071166976039 -90.797792361883481,18.657631621861757</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 11</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.62198789392</SimpleData>
+			<SimpleData name="NumParcela">11</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.793992974198147,18.657071166976039 -90.794267536929652,18.652599938233774 -90.790604584624319,18.652168812519488 -90.790357809499071,18.654805193126542 -90.790338983062981,18.655051616880808 -90.790267198149749,18.655539221290372 -90.790230634525457,18.656619654559833 -90.793992974198147,18.657071166976039</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 12</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">9.899009259469</SimpleData>
+			<SimpleData name="NumParcela">12</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.790267198149749,18.655539221290372 -90.790338983062981,18.655051616880808 -90.79020838809457,18.655032873265398 -90.790227165292848,18.654805634285591 -90.79032763790299,18.653528029432902 -90.785931486418605,18.653179938388465 -90.785741007448777,18.654959151016918 -90.790025340167091,18.655508229925648 -90.790164930051773,18.655526113039492 -90.790267198149749,18.655539221290372</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 13</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.054487830098</SimpleData>
+			<SimpleData name="NumParcela">13</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.79032763790299,18.653528029432902 -90.79076591937914,18.649915602019291 -90.786512851867073,18.64936267550463 -90.786463755844665,18.649644149782372 -90.785931486418605,18.653179938388465 -90.79032763790299,18.653528029432902</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 15</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.729198794422</SimpleData>
+			<SimpleData name="NumParcela">15</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.817159288618569,18.654768039388941 -90.817527064058382,18.650085135234846 -90.813744095750963,18.649709395184342 -90.813305024667429,18.654220652428059 -90.817159288618569,18.654768039388941</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 16</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.290275592509</SimpleData>
+			<SimpleData name="NumParcela">16</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.813305024667429,18.654220652428059 -90.813744095750963,18.649709395184342 -90.809936321267813,18.649328747666527 -90.8095136290694,18.653875631546779 -90.813305024667429,18.654220652428059</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 17</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.674362207966</SimpleData>
+			<SimpleData name="NumParcela">17</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.8095136290694,18.653875631546779 -90.809936321267813,18.649328747666527 -90.807463417044175,18.649085341161381 -90.806353539870429,18.648976087633628 -90.805742132364401,18.653482361494504 -90.8095136290694,18.653875631546779</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 18</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.915390579403</SimpleData>
+			<SimpleData name="NumParcela">18</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.805742132364401,18.653482361494504 -90.806353539870429,18.648976087633628 -90.802502793593206,18.648656465666917 -90.80193307197024,18.653442017951217 -90.805742132364401,18.653482361494504</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 2</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.532978391775</SimpleData>
+			<SimpleData name="NumParcela">2</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.784891464430004,18.66071952631437 -90.78548342412617,18.656900953474686 -90.78076819006516,18.655873099009536 -90.780171182194039,18.660010935271554 -90.784891464430004,18.66071952631437</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 20</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.176448735451</SimpleData>
+			<SimpleData name="NumParcela">20</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.798168628365829,18.652907102293447 -90.798718706715789,18.648310900508903 -90.79767629771824,18.648207264683641 -90.794869786606881,18.647947283189655 -90.794267536929652,18.652599938233774 -90.798168628365829,18.652907102293447</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 7</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.909780280547</SimpleData>
+			<SimpleData name="NumParcela">7</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.809136902465141,18.658337407506707 -90.8095136290694,18.653875631546779 -90.805742132364401,18.653482361494504 -90.805362053860208,18.657976979066866 -90.809136902465141,18.658337407506707</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 8</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.185550985124</SimpleData>
+			<SimpleData name="NumParcela">8</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.805362053860208,18.657976979066866 -90.805742132364401,18.653482361494504 -90.80193307197024,18.653442017951217 -90.801626856447839,18.65761675049778 -90.805362053860208,18.657976979066866</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 9</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.85783086323</SimpleData>
+			<SimpleData name="NumParcela">9</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.801626856447839,18.65761675049778 -90.80193307197024,18.653442017951217 -90.798168628365829,18.652907102293447 -90.797792361883481,18.657631621861757 -90.801626856447839,18.65761675049778</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 21</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.245618000055</SimpleData>
+			<SimpleData name="NumParcela">21</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.794267536929652,18.652599938233774 -90.794869786606881,18.647947283189655 -90.791145782078274,18.64756531155621 -90.790604584624319,18.652168812519488 -90.794267536929652,18.652599938233774</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 22</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">18.278352768725</SimpleData>
+			<SimpleData name="NumParcela">22</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.79076591937914,18.649915602019291 -90.791123620895902,18.646018236927958 -90.787141237215806,18.645759672884228 -90.786512851867073,18.64936267550463 -90.79076591937914,18.649915602019291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 23</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.327429231564</SimpleData>
+			<SimpleData name="NumParcela">23</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.786512851867073,18.64936267550463 -90.787141237215806,18.645759672884228 -90.783211645230281,18.644955798396261 -90.782154724043025,18.648742756821768 -90.786463755844665,18.649644149782372 -90.786512851867073,18.64936267550463</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 24</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">16.753715724108</SimpleData>
+			<SimpleData name="NumParcela">24</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.791123620895902,18.646018236927958 -90.791583952476259,18.642162694161247 -90.787970518764681,18.642116837795122 -90.787141237215806,18.645759672884228 -90.791123620895902,18.646018236927958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 25</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">38.111920222523</SimpleData>
+			<SimpleData name="NumParcela">25</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.787970518764681,18.642116837795122 -90.788792123215487,18.636976779430061 -90.78544306536557,18.636685497529839 -90.783576609438498,18.643705825683767 -90.783211645230281,18.644955798396261 -90.787141237215806,18.645759672884228 -90.787970518764681,18.642116837795122</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 26</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.222516811311</SimpleData>
+			<SimpleData name="NumParcela">26</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.792000067932676,18.638610802456 -90.792148247465661,18.63702031061846 -90.789826274654118,18.636991967336705 -90.789661888521621,18.636992798471443 -90.788792123215487,18.636976779430061 -90.787970518764681,18.642116837795122 -90.791583952476259,18.642162694161247 -90.79166990693561,18.642154445721133 -90.792000067932676,18.638610802456</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 27</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.633847897453</SimpleData>
+			<SimpleData name="NumParcela">27</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.792148247465661,18.63702031061846 -90.792576372075715,18.632802251024298 -90.788445329195568,18.63209238806693 -90.786977197834503,18.631892383401606 -90.787737145548277,18.633607376174474 -90.787814130503492,18.633747095703171 -90.787915418164445,18.633921271652479 -90.788282255500974,18.634454611538342 -90.788367123661544,18.634562186134744 -90.788435956120253,18.634681784199859 -90.789455882115092,18.636460231781502 -90.789557326696141,18.636628375139331 -90.789673861320594,18.636793904802964 -90.789826274654118,18.636991967336705 -90.792148247465661,18.63702031061846</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 28</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">26.99523014017</SimpleData>
+			<SimpleData name="NumParcela">28</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.789661888521621,18.636992798471443 -90.78955537145724,18.636854909071971 -90.789448268653658,18.636689806398266 -90.789344372629941,18.636527324729077 -90.788247363061117,18.634629226612692 -90.788169603071836,18.634522241423145 -90.787801399337312,18.633986880014362 -90.787700513165447,18.633812437756763 -90.787615128615343,18.633655529585056 -90.786626622044722,18.631471445634784 -90.786516038741865,18.63125803038265 -90.786385273022674,18.631053491419035 -90.78513922529234,18.629202718346871 -90.78507376794613,18.629078164137226 -90.785008305261016,18.628946717949617 -90.784882787367636,18.62925424582993 -90.784617323935095,18.631567545789977 -90.783607688370864,18.636243361787784 -90.78544306536557,18.636685497529839 -90.788792123215487,18.636976779430061 -90.789661888521621,18.636992798471443</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 29</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.676024301473</SimpleData>
+			<SimpleData name="NumParcela">29</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.783607688370864,18.636243361787784 -90.784617323935095,18.631567545789977 -90.780126535045085,18.630930061758487 -90.779250473130986,18.634202264229494 -90.779025076350109,18.635139353334047 -90.783607688370864,18.636243361787784</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 3</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">11.63144699298</SimpleData>
+			<SimpleData name="NumParcela">3</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.790202136323913,18.657853565766903 -90.790230634525457,18.656619654559833 -90.790267198149749,18.655539221290372 -90.790164930051773,18.655526113039492 -90.790025340167091,18.655508229925648 -90.785741007448777,18.654959151016918 -90.78548342412617,18.656900953474686 -90.789943533939564,18.657801818697497 -90.790064394614205,18.657826003207393 -90.790202136323913,18.657853565766903</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 30</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.715863946721</SimpleData>
+			<SimpleData name="NumParcela">30</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.792903062537874,18.629695189375468 -90.793025657898767,18.628529218515567 -90.789026461495425,18.62782354414783 -90.788445329195568,18.63209238806693 -90.792576372075715,18.632802251024298 -90.792903062537874,18.629695189375468</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 31</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">15.690193879825</SimpleData>
+			<SimpleData name="NumParcela">31</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.788445329195568,18.63209238806693 -90.789026461495425,18.62782354414783 -90.786824645656438,18.627426213360955 -90.785122852111598,18.62712855115311 -90.785078171582882,18.628781502998716 -90.785130178399953,18.628899196562038 -90.785194867575512,18.629024536575848 -90.785256288304879,18.629138890526239 -90.786502835812087,18.63099284827835 -90.786639190455077,18.631208463747928 -90.786749637170999,18.631423656762081 -90.786977197834503,18.631892383401606 -90.788445329195568,18.63209238806693</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 34</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.43169954643</SimpleData>
+			<SimpleData name="NumParcela">34</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.793581589494707,18.623242556473237 -90.793749304662541,18.621509155828932 -90.789309874883372,18.620581229302726 -90.789071336001854,18.621532708458474 -90.789050917613523,18.62161413275145 -90.788939203862242,18.622059737601539 -90.788828888029087,18.622499758498176 -90.788783495063939,18.622680799378351 -90.788673108324176,18.623121099263628 -90.788277568881966,18.624698734936178 -90.793294592102882,18.62588988327839 -90.793581589494707,18.623242556473237</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 4</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.986752949547</SimpleData>
+			<SimpleData name="NumParcela">4</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.785741007448777,18.654959151016918 -90.785931486418605,18.653179938388465 -90.781287572494833,18.65250473903118 -90.781091787187322,18.653539133511458 -90.78076819006516,18.655873099009536 -90.78548342412617,18.656900953474686 -90.785741007448777,18.654959151016918</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 5</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.36010815207</SimpleData>
+			<SimpleData name="NumParcela">5</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.817497554246444,18.6589008488085 -90.817159288618569,18.654768039388941 -90.813305024667429,18.654220652428059 -90.812853420687375,18.658682123784846 -90.817497554246444,18.6589008488085</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 6</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.736680954959</SimpleData>
+			<SimpleData name="NumParcela">6</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.812853420687375,18.658682123784846 -90.813305024667429,18.654220652428059 -90.8095136290694,18.653875631546779 -90.809136902465141,18.658337407506707 -90.812853420687375,18.658682123784846</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 14</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.731083930739</SimpleData>
+			<SimpleData name="NumParcela">14</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.785931486418605,18.653179938388465 -90.786463755844665,18.649644149782372 -90.782154724043025,18.648742756821768 -90.781287572494833,18.65250473903118 -90.785931486418605,18.653179938388465</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 19</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.975605813083</SimpleData>
+			<SimpleData name="NumParcela">19</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.80193307197024,18.653442017951217 -90.802502793593206,18.648656465666917 -90.798718706715789,18.648310900508903 -90.798168628365829,18.652907102293447 -90.80193307197024,18.653442017951217</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 32</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">22.212756437409</SimpleData>
+			<SimpleData name="NumParcela">32</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.785008305261016,18.628946717949617 -90.785078171582882,18.628781502998716 -90.785122852111598,18.62712855115311 -90.784418025975242,18.627059179246316 -90.784373639895307,18.627052414778504 -90.781231322655515,18.626573122103963 -90.780204238984595,18.630623617491185 -90.780126535045085,18.630930061758487 -90.784617323935095,18.631567545789977 -90.784882787367636,18.62925424582993 -90.785008305261016,18.628946717949617</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 35</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">20.792220176869</SimpleData>
+			<SimpleData name="NumParcela">35</SimpleData>
+			<SimpleData name="IdNucleoAgrario">12</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.E. JOSE E. DE LA CRUZ BLANCO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.784250792356289,18.66635105706083 -90.784361754012139,18.664445819469435 -90.77973357878885,18.663729407209424 -90.779426105349586,18.667510185689739 -90.783988865552345,18.668239743568936 -90.784250792356289,18.66635105706083</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

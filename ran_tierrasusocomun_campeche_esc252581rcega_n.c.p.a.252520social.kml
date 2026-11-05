@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - ESCÁRCEGA</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73185</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.407747775574109,18.692642969164428 -90.407756220486547,18.686683421501229 -90.407780295101915,18.669571179084556 -90.407792873747312,18.660566555115668 -90.407802588240571,18.653581022166332 -90.402331068869827,18.654380835201206 -90.402287997660736,18.659201206599398 -90.40239076422246,18.677071109096953 -90.393962424287807,18.67716085176361 -90.394032847903645,18.679959629063593 -90.391098875148288,18.679956781249814 -90.391005020689036,18.656567722835359 -90.387049237324547,18.656386805686996 -90.386825206882023,18.658350421054891 -90.386916448314352,18.664389205830524 -90.386686095546239,18.667847320738339 -90.3868843446716,18.671247475656038 -90.38277529494448,18.669514462877068 -90.379235271152623,18.672314607901789 -90.379258602594618,18.672866527356888 -90.380109161916849,18.682478972182999 -90.382914486519468,18.68012338927867 -90.383042259811589,18.682342220434499 -90.387283120239616,18.682401463908683 -90.387233805825261,18.692402377234139 -90.391043298527947,18.692447223936565 -90.39106998483993,18.690249266686219 -90.401898938341859,18.690364704683752 -90.401815216314475,18.692573618769444 -90.407747775574109,18.692642969164428</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73186</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.390054744046338,18.568829424386504 -90.389995439219348,18.567847069789885 -90.388975262727001,18.568041929900907 -90.38777756185209,18.568270690724649 -90.387783922029229,18.56756662044781 -90.382345125880533,18.568798628800547 -90.380702434447912,18.56916492982959 -90.380658312734852,18.568697258102148 -90.375640864515475,18.568833801272127 -90.375903936687536,18.580798973263747 -90.378116731213055,18.58075701797604 -90.377777336273638,18.577025805054877 -90.377490562856977,18.574057381124959 -90.378287472148983,18.572571119021493 -90.380967623131284,18.572263365841593 -90.380876660015076,18.571195461693975 -90.390054744046338,18.568829424386504</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73187</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.427567234460483,18.565968560842261 -90.428300583395654,18.565945556636073 -90.427531156709222,18.560757127054465 -90.42632935203234,18.560767679063993 -90.426018190303722,18.56077040449135 -90.414880402878694,18.560897383357862 -90.412245178804952,18.560930040470659 -90.41340284437068,18.565918739338127 -90.411633625649202,18.565855051257049 -90.41198469568333,18.568023428583977 -90.414431861136663,18.567079121694515 -90.416147584703339,18.567176206045279 -90.417028987018625,18.567225471301771 -90.418140614058728,18.567146569199139 -90.4206601204355,18.56759075127475 -90.420221952742693,18.5659273875401 -90.424313079680516,18.565950877741525 -90.426895427672122,18.566010400360138 -90.427567234460483,18.565968560842261</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73188</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.398594998276536,18.543766764655341 -90.398590516518908,18.542809508478769 -90.398534558046407,18.537510347046815 -90.398526860509662,18.536585113957951 -90.398478998849356,18.530769038609115 -90.398467327195149,18.529128540360645 -90.398421652465757,18.524861268287083 -90.398357320762258,18.519371735760572 -90.398328140981363,18.469442460098083 -90.330127853911108,18.470130707242419 -90.331311439850197,18.514483059304716 -90.356891590255557,18.513481307556493 -90.358776084244695,18.564745176102452 -90.363304614174112,18.564683149058585 -90.363787256167967,18.568927750677453 -90.368233890967787,18.568832159774267 -90.369291997560282,18.568824848037988 -90.368984453403982,18.57064026546162 -90.374214940793522,18.570610507792139 -90.373308768012279,18.57543226904972 -90.372548359328874,18.575513464576982 -90.372504235683252,18.575826396463579 -90.375749237665445,18.576354640187819 -90.374943414874508,18.553800676697126 -90.375127774887417,18.547842403563845 -90.376992659651222,18.54820751120193 -90.377057205954202,18.548740215629579 -90.377130021383394,18.550555368579875 -90.377284534018045,18.557057429014385 -90.376955016115062,18.55751311424433 -90.377082720174997,18.55952521735534 -90.379041966008799,18.559498062791487 -90.379203784137772,18.550422230215652 -90.378824991806084,18.550485040712886 -90.379022462423109,18.548608313874333 -90.378808566628635,18.54642206783431 -90.386087176714383,18.544847515003955 -90.385889847278946,18.543634865808688 -90.387354347546406,18.543464967977108 -90.388793025252383,18.543458362590734 -90.38887038247293,18.541544486748258 -90.393822361456714,18.541574874280528 -90.39368428301745,18.543573755789435 -90.398594998276536,18.543766764655341</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73211</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.390973093818104,18.648635159151357 -90.390953980691805,18.643890057153744 -90.387461400248014,18.643763835069837 -90.38709728263008,18.639947464524443 -90.383974603297304,18.639792212239904 -90.383992150167188,18.641190764572176 -90.384015857376923,18.643995015954513 -90.383870835091557,18.64708619055185 -90.377877319625668,18.649740024469082 -90.378017291578814,18.65279379278169 -90.378520816387024,18.65725587544944 -90.378750054103023,18.660836983258179 -90.379045401397704,18.667823201643344 -90.382741045194621,18.665054436147877 -90.382767091241732,18.664088313921514 -90.383087162906307,18.657930872371711 -90.383523283876798,18.652654393118464 -90.383643918549282,18.65091957589096 -90.38390505420314,18.647345742646095 -90.387396942139375,18.647810961927377 -90.387190137568226,18.64848845260461 -90.390973093818104,18.648635159151357</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73212</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.390886163055796,18.627091647031158 -90.390871149078862,18.623379290517597 -90.389019007156406,18.623385904992496 -90.38777288002612,18.626012773049236 -90.389650638786847,18.626086458860438 -90.389635292731612,18.626925579630502 -90.390886163055796,18.627091647031158</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73213</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.376616418370745,18.607320167580564 -90.376783435367045,18.607209497361197 -90.376661344860523,18.603339691479214 -90.376290738466068,18.598826440807574 -90.376313315884786,18.599415325768 -90.376238797822012,18.59940556318114 -90.376113845190162,18.599389192985846 -90.376369256369685,18.607483931696056 -90.376517156860672,18.607385936091646 -90.376616418370745,18.607320167580564</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73214</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.414983903911704,18.604978812495133 -90.416033900207665,18.604348104120245 -90.414191468539968,18.598046154778903 -90.413211681161144,18.593857220572964 -90.412021871686875,18.594955431196126 -90.412068190554564,18.595142316619807 -90.414007995909131,18.602006239455729 -90.414983903911704,18.604978812495133</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73215</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.394313640082558,18.597178453602154 -90.394225243069116,18.59717825070593 -90.39411912533167,18.597171887482432 -90.393413081178778,18.589713855198841 -90.391166732200801,18.589510198244628 -90.391021800983353,18.590504063751592 -90.381921556294998,18.590314516709139 -90.376068590701422,18.590139889663376 -90.376114382905726,18.596621323466167 -90.376115661523727,18.596718328607448 -90.376290738466068,18.598826440807574 -90.381315638826337,18.598879143316179 -90.382415790675878,18.599047771472861 -90.384792373922025,18.599256732062628 -90.38612789848446,18.599029991788743 -90.388132709309971,18.598999044669199 -90.388482544705383,18.607064651187336 -90.390494687920608,18.607469686548718 -90.390752974263449,18.612235267210551 -90.390814353118969,18.612269838450242 -90.39093076192637,18.607640133850129 -90.39123169486669,18.606658051505832 -90.394313640082558,18.597178453602154</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73216</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.410556915191009,18.578926971227368 -90.412274547598429,18.576845392229963 -90.410047214182015,18.569280360392593 -90.409232795380433,18.575970043191223 -90.407971929569968,18.577964217420181 -90.407577293709579,18.578600373179917 -90.406963094668839,18.57931987591008 -90.407989391119429,18.580244504052786 -90.407406823002646,18.580992988741219 -90.40635934514188,18.579984938525435 -90.405787876588008,18.580691722234178 -90.405220062175772,18.581388259023608 -90.407559105645205,18.582519804112991 -90.408254485226635,18.581705619890336 -90.409406708141972,18.580323868202232 -90.409982488075784,18.579620300737968 -90.410556915191009,18.578926971227368</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73217</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.39602425854018,18.581243337574183 -90.395115731364498,18.579237139479751 -90.394508789105728,18.578665735960815 -90.394183232950979,18.578900265273994 -90.393841523629376,18.579293996602804 -90.392540881097403,18.579821677063162 -90.392777716822735,18.58165171508594 -90.39602425854018,18.581243337574183</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>N.C.P.A. JUSTICIA SOCIAL</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73218</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">2</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">N.C.P.A. JUSTICIA SOCIAL</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.390061686129826,18.573273214557304 -90.391975835458737,18.573143669504656 -90.380967623131284,18.572263365841593 -90.381154425809171,18.573734170901076 -90.381195325206605,18.573739055745769 -90.38748522369599,18.57525451567215 -90.387584404969473,18.573422325496356 -90.38838789104156,18.573387069846991 -90.390061686129826,18.573273214557304</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

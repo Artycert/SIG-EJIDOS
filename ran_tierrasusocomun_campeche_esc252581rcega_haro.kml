@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - ESCÁRCEGA</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73255</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.80996598714917,18.443620279984827 -90.812813292383041,18.441405691243286 -90.804559544969351,18.43905790057984 -90.80157773502853,18.441053207790148 -90.799331006856406,18.440298276063462 -90.798910913542869,18.43992223293084 -90.797454471133889,18.443118736130486 -90.799845007577233,18.444627373305259 -90.798519097581448,18.447924187978579 -90.799747880448749,18.447997072945647 -90.799784253279782,18.447189479131769 -90.801732586597439,18.447670167421187 -90.802064252496081,18.446433926060209 -90.803749749975779,18.446795537660904 -90.803634300820036,18.444732040630981 -90.798646326110031,18.442682077587797 -90.799614766960573,18.440560657304761 -90.80996598714917,18.443620279984827</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73256</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.866516591472191,18.428872065890076 -90.867911154695747,18.423969747604446 -90.864487869184558,18.421839654530466 -90.862586440008826,18.423546566647644 -90.861028393942149,18.423538864841532 -90.856304332419171,18.424271780290983 -90.854609187530954,18.424536903617156 -90.852695142134934,18.431798056705126 -90.848564880917664,18.42910803764854 -90.846316535478579,18.427622139757187 -90.845497988434431,18.428723875147114 -90.841651007537322,18.433174507486051 -90.842130646718303,18.435399297076138 -90.839552918283431,18.44065582644745 -90.837825623106298,18.440009876155301 -90.831279605077597,18.437772603426254 -90.832425129763266,18.443126917988725 -90.83336797565093,18.447698163217822 -90.832749507077224,18.448398985964563 -90.842040893784343,18.450007546225677 -90.84435603872781,18.446078011100948 -90.849860660031524,18.447368035130403 -90.851273070403366,18.443872127260864 -90.852861906892869,18.439298155093603 -90.855224032497333,18.439990345985962 -90.855264378390316,18.432025559615308 -90.86033168182,18.433015073534019 -90.863775915961412,18.433590692259823 -90.86443537122291,18.434550536913456 -90.865700011327036,18.43495212670225 -90.865103535662797,18.431549645722413 -90.865467749149161,18.431495045014767 -90.866516591472191,18.428872065890076</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73257</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.924870576654143,18.456979751388683 -90.924946593254205,18.456023246775093 -90.918238133796237,18.454917600365047 -90.918079352004227,18.455990913564918 -90.923466022568746,18.45681327691268 -90.924870576654143,18.456979751388683</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73258</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.914422561911934,18.433522211321826 -90.914638594946425,18.432733340018192 -90.893242684156604,18.430656179731777 -90.888732149597018,18.429979199575136 -90.888260681127747,18.434671192213251 -90.887961756845399,18.438475412467838 -90.889312106765374,18.440425732207437 -90.890982672199598,18.435332107696421 -90.895359009865075,18.436441898725683 -90.895232192323832,18.440595663889486 -90.896363429492226,18.440719511542024 -90.89665450062256,18.44077099514233 -90.897049125473828,18.43690574702255 -90.898050002861368,18.436946340846038 -90.898636279806126,18.436966800613789 -90.900038673291235,18.434016419813982 -90.903437577848194,18.434726239168814 -90.90434127207358,18.433378986389378 -90.914229741408278,18.434154354733977 -90.913702163126601,18.435889138517421 -90.911589559075736,18.438393386893935 -90.911728068943333,18.442751652928358 -90.910417505008297,18.445446322157164 -90.909939490324703,18.44696344114028 -90.910316748285268,18.44748213078374 -90.910519046537146,18.447596680906997 -90.912459635649114,18.442008759677833 -90.914307791899077,18.435219113237217 -90.914422561911934,18.433522211321826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73259</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.432538718290047,18.331223443339869 -90.430255179487247,18.275780004661019 -90.260501606420263,18.283883964720239 -90.256784185690336,18.309389779689159 -90.432538718290047,18.331223443339869</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73191</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.883440879720652,18.485314799834455 -90.883453049717218,18.485188001056738 -90.874950773754591,18.480230700863629 -90.874073156416117,18.482114854695912 -90.868343081679711,18.480797275690616 -90.867649182038036,18.480635176104634 -90.86717370784902,18.482822554530291 -90.861976366813906,18.481276963080315 -90.851887047773374,18.480148358848719 -90.84608955740093,18.47903390564062 -90.843765664161495,18.478499728115288 -90.843408617903776,18.48168648329311 -90.84281155539874,18.48588654505777 -90.846788008794377,18.486939888628811 -90.850807415867976,18.488004516352184 -90.856483762144265,18.489507856194184 -90.85876413013942,18.490111742130392 -90.858993246736119,18.485871755593116 -90.868456530286068,18.488362824746808 -90.870327542520201,18.488887719466 -90.869533492012849,18.492963258689073 -90.871189451117445,18.493401665556828 -90.882360139796972,18.496358607313944 -90.882557476875192,18.494216909830037 -90.8830139073374,18.489624941235437 -90.883440879720652,18.485314799834455</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73192</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.861028393942149,18.423538864841532 -90.866404953900187,18.417096720576133 -90.861161007391104,18.417949901280043 -90.861028393942149,18.423538864841532</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73193</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.806156247633453,18.424098852738133 -90.808244767538284,18.421174380915168 -90.801251014558247,18.421202272537624 -90.801222286250209,18.421257925640049 -90.80295381972094,18.421997819732088 -90.803048350500461,18.421813694229719 -90.805323773810997,18.421303285094531 -90.806212468603306,18.422062076584304 -90.804382013269972,18.423279416998263 -90.806156247633453,18.424098852738133</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73194</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.893145258760029,18.416097461994362 -90.894166658191295,18.410201018239874 -90.882584922808732,18.413372993148847 -90.881935826174356,18.414551337033316 -90.886304776764248,18.415165403246046 -90.891101961780947,18.415852473313283 -90.893145258760029,18.416097461994362</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73195</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.82467021425947,18.439345236615971 -90.824684423350817,18.439096143470881 -90.822508012492463,18.43936215355707 -90.821020871257176,18.439212500854008 -90.82182623260961,18.439356187349283 -90.822769065074993,18.43956759681658 -90.823806519296681,18.439673570445606 -90.82467021425947,18.439345236615971</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73196</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.792945889314964,18.451095211697385 -90.792981807835815,18.451004931292299 -90.792666256957943,18.450870173620039 -90.789615341479404,18.448924616827576 -90.789276526045484,18.448753433608385 -90.788945885816617,18.448510778296892 -90.787985406166442,18.447824699916069 -90.786791080791133,18.449911998597145 -90.788123519991828,18.4507137885087 -90.787209128320384,18.452447251153878 -90.787532519882149,18.452600734895444 -90.788202581988926,18.452111704667491 -90.78951097248671,18.45029412781523 -90.792500710536572,18.452081091320029 -90.79284191549273,18.451318972666947 -90.792945889314964,18.451095211697385</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73221</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.789248062916016,18.440063850782842 -90.789695376454887,18.438925699232311 -90.784398783907562,18.436265008563193 -90.783661522190826,18.438966792353472 -90.784829293676182,18.439335818065011 -90.784306552457025,18.440598918679964 -90.787883733388611,18.44294859450714 -90.788774684601165,18.441358994025116 -90.788071074820252,18.440908815389523 -90.788550590431598,18.439852455719347 -90.789226138527525,18.44011380864746 -90.789248062916016,18.440063850782842</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73222</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.794671148629035,18.437487698527065 -90.793855880206692,18.437250104671794 -90.793496298902127,18.437505824593021 -90.792771204459441,18.437249167873023 -90.793197625084431,18.436122305800517 -90.790762280234787,18.434348010123539 -90.790432016791925,18.434735095847376 -90.789614877714044,18.435681421677295 -90.790877297273454,18.436676628194654 -90.791281498707022,18.437595744730508 -90.790508576688509,18.438620387788458 -90.790752106389206,18.438771696404693 -90.792393233378405,18.439807364437033 -90.792766418884256,18.440007511610311 -90.792912822614454,18.440086030221888 -90.794671148629035,18.437487698527065</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73223</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.780960326452515,18.469621853229174 -90.782274132151784,18.46606335836125 -90.774304253548479,18.461866130991059 -90.773709453596013,18.461550107837144 -90.772300265602183,18.460801374176359 -90.770401547109586,18.464380011155598 -90.772614159323808,18.465486869739685 -90.776983186066417,18.467672343807507 -90.780491177365917,18.469427003622187 -90.780960326452515,18.469621853229174</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73224</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.823598546518255,18.444525079943045 -90.823806519296681,18.439673570445606 -90.823242992050851,18.440802369047027 -90.822765534381745,18.441875046707914 -90.822613678044206,18.442797060107598 -90.822454273201942,18.443796651942062 -90.82231210053898,18.444666402682326 -90.820621285848375,18.444237308979648 -90.820551947669216,18.444611650903138 -90.82080228367407,18.445464384278516 -90.821093190559097,18.446379929109852 -90.818878575827839,18.447224885784486 -90.818233137503412,18.448211879620494 -90.818033723992485,18.449427586907767 -90.820152421587025,18.449212844598289 -90.821699821755061,18.449455800994141 -90.822819179402316,18.446628078561861 -90.823598546518255,18.444525079943045</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73225</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.787989790558811,18.464562969686536 -90.788005897773644,18.464530739069609 -90.787036268896202,18.464454561669303 -90.783265857166938,18.464668346887493 -90.781306603314164,18.46976566387589 -90.781407825368476,18.469788220875071 -90.782969795554607,18.470136329940122 -90.78377435525671,18.469461901666591 -90.784154406693347,18.468647925339457 -90.785496594278385,18.467879801415481 -90.783379706094394,18.467706988931216 -90.783758486579231,18.46675960242041 -90.784829173461077,18.464623165848757 -90.787989790558811,18.464562969686536</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73226</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.824157298549537,18.466400372417482 -90.824365363600506,18.461176282309811 -90.814483418015257,18.457679371139797 -90.813094065518612,18.458876510918209 -90.813367549662445,18.461247209974811 -90.816208530719592,18.461728381356767 -90.824157298549537,18.466400372417482</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73227</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.892971532688819,18.449386291947864 -90.893215598536273,18.447547836864068 -90.893116800627496,18.447549376957053 -90.88649539749467,18.446650119320513 -90.884727377101939,18.44478095535414 -90.884495712895074,18.444540417307834 -90.88165115497759,18.446128066862808 -90.876689251995899,18.438736442066851 -90.876220655385325,18.438030308733712 -90.87661959796759,18.443019787882651 -90.877790029663245,18.44620860022652 -90.877597335592299,18.447747223242946 -90.876714918055114,18.449706614372531 -90.871123792171616,18.448543400474978 -90.871578551014096,18.450800996083164 -90.865289009137626,18.450747541925992 -90.865392005533039,18.441823432957666 -90.859953758149075,18.44122834204196 -90.859969412588484,18.445919061162027 -90.854866104369222,18.449295860652054 -90.857241429785176,18.449903791714192 -90.860016359443676,18.450603320559416 -90.864540596440776,18.45173904918407 -90.863652153297181,18.455220608028348 -90.860531161646605,18.455068584271757 -90.859019089296709,18.455078531021041 -90.855966131398944,18.455117754531496 -90.854308928531594,18.460587574494266 -90.860486405901227,18.459645007307493 -90.860488309084275,18.462341130378569 -90.86205349382297,18.462832357376112 -90.859766528936859,18.468060696583539 -90.86931766436831,18.472157012885223 -90.871011237874527,18.468362474239022 -90.87291213490164,18.470398082314944 -90.873879467353149,18.471434850065499 -90.874519319709535,18.464272636684925 -90.877219104449296,18.466387991554445 -90.879796226915417,18.463338885498466 -90.881127977824121,18.457637533836188 -90.886522383787749,18.461257305570424 -90.887299372726673,18.454426171655452 -90.891186415808548,18.454757097356264 -90.892197504315874,18.454853263982358 -90.892563304774399,18.452114787421532 -90.892695321909017,18.451312598797504 -90.889553257428716,18.449953887049016 -90.889440438557983,18.449460633724055 -90.892786836940601,18.449757784398532 -90.892971532688819,18.449386291947864</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>HARO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73254</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">15</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">HARO</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.755264319963771,18.460517394189331 -90.756513484530132,18.451246250291344 -90.751774864725945,18.450799836779655 -90.747143953789831,18.450328581896549 -90.746180129571485,18.450233747304281 -90.739525482745648,18.441554736022262 -90.740429801628878,18.439490541042847 -90.737616833999823,18.438472094524755 -90.734436661905207,18.437538520114334 -90.732697919370523,18.44393079680534 -90.728835515841439,18.442470516973053 -90.730047247797884,18.440382019055807 -90.726455796286885,18.43912023364231 -90.727256295921109,18.434681345590757 -90.725531598957105,18.434390742371036 -90.729711242166417,18.428355862058467 -90.732686280179706,18.422358791905449 -90.727860847980764,18.42248721555811 -90.72823340495674,18.418818337678371 -90.72343873147868,18.41902508478443 -90.722811404109677,18.42272920327056 -90.72220951785819,18.426387880666891 -90.716502486121641,18.425552632822196 -90.716423474079704,18.424255831719918 -90.716732323421354,18.424267730272941 -90.716532518550039,18.419322665061003 -90.702316749648546,18.419934402237125 -90.702262380100066,18.450196778569016 -90.70661961903555,18.447795408127316 -90.706372062334225,18.45150717260994 -90.711200375793013,18.45254986758459 -90.715577369102832,18.453182164108703 -90.721793543404289,18.45376594007659 -90.721427683434229,18.457571596333953 -90.722647339347958,18.45767788944984 -90.730619592347679,18.458372440545173 -90.735718067949449,18.458816453972094 -90.742251508737127,18.459385227102953 -90.74572433749735,18.459687464118542 -90.747759637438065,18.459864566394906 -90.755264319963771,18.460517394189331</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

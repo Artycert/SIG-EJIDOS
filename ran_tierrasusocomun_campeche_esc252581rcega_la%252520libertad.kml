@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - ESCÁRCEGA</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73219</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.436810916597992,18.58320467142482 -90.443344089351555,18.575035135988465 -90.436219370639378,18.572966881062079 -90.436382564000795,18.574389579406468 -90.434019929329125,18.577814267261481 -90.437856498463375,18.580475007161503 -90.43609725801609,18.582753461989491 -90.436810916597992,18.58320467142482</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73220</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.487282660904825,18.560015477815309 -90.488262650377195,18.555449325814966 -90.485065598057318,18.55555182776385 -90.484335623613077,18.559360606642045 -90.487282660904825,18.560015477815309</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73240</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.470843728707422,18.559247959641198 -90.471573029235344,18.556121154255724 -90.469307026182065,18.556220699323617 -90.469081983183429,18.559260696779639 -90.470843728707422,18.559247959641198</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73241</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.427702699767039,18.560755619621744 -90.428888103280045,18.557702184397062 -90.425287099684454,18.55784172007538 -90.426018190303722,18.56077040449135 -90.42632935203234,18.560767679063993 -90.427531156709222,18.560757127054465 -90.427702699767039,18.560755619621744</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73242</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.414880402878694,18.560897383357862 -90.41462303129012,18.558267006727458 -90.411444834999244,18.558403941925473 -90.41221303547195,18.560930439292001 -90.412245178804952,18.560930040470659 -90.414880402878694,18.560897383357862</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73243</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.481666848130857,18.556443547514004 -90.481855107222259,18.55565786157079 -90.478933445129258,18.555771366788132 -90.478714531040794,18.556544807935449 -90.481666848130857,18.556443547514004</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73244</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.52526244615963,18.554819757283621 -90.52538038032101,18.552901717843355 -90.5243132282978,18.55283253728609 -90.52428634091109,18.554672916933658 -90.52526244615963,18.554819757283621</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73245</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.477555760887569,18.555804653958308 -90.477873828389676,18.554767649331435 -90.474447811521557,18.554923914553264 -90.471608763207783,18.555049927335848 -90.471573029235344,18.556121154255724 -90.477555760887569,18.555804653958308</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73246</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.467773276651371,18.556246998025728 -90.467551624240457,18.554606534526432 -90.46697384532591,18.554677095033199 -90.467039490117472,18.556277235642018 -90.467773276651371,18.556246998025728</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73247</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.425287099684454,18.55784172007538 -90.425099378969094,18.552857232321003 -90.421598094443738,18.55322285390638 -90.420330501067923,18.553183771247408 -90.420983788788078,18.557985844731483 -90.425287099684454,18.55784172007538</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73248</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.486238635488561,18.553927335609977 -90.485290037876936,18.552727380881095 -90.483672699854026,18.552323350175506 -90.483513066801947,18.55322804498994 -90.482080673308616,18.552925484264165 -90.481372112237437,18.553797806405946 -90.483245287635469,18.554573071985892 -90.486238635488561,18.553927335609977</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73249</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.472890676102182,18.567959817963629 -90.472223793492176,18.565120385915247 -90.468197715965871,18.56428927194618 -90.469096941728395,18.567946654424084 -90.472890676102182,18.567959817963629</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73250</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.565361474380424,18.552725215142818 -90.565387853376677,18.551756629986492 -90.565420369803689,18.550562596936693 -90.565459228340345,18.549135614707676 -90.565508798127482,18.547315200171415 -90.564097282540118,18.547256517252105 -90.563961149676331,18.552278557835077 -90.559547841784465,18.552288642877347 -90.559418655728521,18.551003717080217 -90.557634229035372,18.550342190980757 -90.557509953151396,18.5522197812518 -90.55604562278576,18.551911216033467 -90.556081328109286,18.552577834229698 -90.560332248293463,18.552979322096238 -90.565361474380424,18.552725215142818</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73251</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.531405810279111,18.553156090653925 -90.531411640590875,18.552940985188847 -90.531390919636152,18.552228779131145 -90.527411982201201,18.551744810013037 -90.526074357410835,18.552947223677574 -90.531405810279111,18.553156090653925</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73252</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.51115694225885,18.552346161219742 -90.511148699274685,18.551731338866063 -90.508033478317714,18.55081306220934 -90.506062593819195,18.55047336905589 -90.502063539700472,18.550589231301142 -90.501689488837854,18.549901807948174 -90.501182094355514,18.549961695020603 -90.496445335854503,18.550171355819543 -90.496368874639913,18.550654449456719 -90.499257112243967,18.550623343324848 -90.499071852924914,18.551525571234727 -90.50023410345969,18.551538217691899 -90.50608554215232,18.551431725026145 -90.506070688179761,18.55067421355157 -90.508054191448494,18.55142912298145 -90.510025454781186,18.55204218730055 -90.51115694225885,18.552346161219742</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">73253</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.471892738786423,18.551587397361946 -90.474738752389257,18.550145342061153 -90.471916125374875,18.550527952319904 -90.471910598258106,18.549623155965918 -90.470773844389527,18.550685643887171 -90.470587794666301,18.551525512125668 -90.471892738786423,18.551587397361946</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72747</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.420330501067923,18.553183771247408 -90.420240951323066,18.550736139819993 -90.414682765529747,18.550712390973224 -90.409988662047184,18.550652541180103 -90.410019213529878,18.553495781622363 -90.411607105355941,18.553663654210968 -90.416890698959833,18.553997897346523 -90.420330501067923,18.553183771247408</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72748</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.403696315213665,18.555885436803084 -90.403763575921019,18.555375000956072 -90.403182923262193,18.55526904429513 -90.403264110188616,18.554670570834695 -90.402176147583191,18.554336485050328 -90.401870574602953,18.555892350122566 -90.403126819172428,18.555817986565614 -90.403696315213665,18.555885436803084</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72749</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.401838946112932,18.553456644298279 -90.401942541607596,18.55071990265748 -90.398658557799749,18.550871470652524 -90.398678338947306,18.55274491507204 -90.398688186372425,18.553677554744134 -90.39868968058687,18.553819473788703 -90.401838946112932,18.553456644298279</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72750</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.534934624027443,18.549666856618977 -90.534919706604612,18.547795544076028 -90.533167519141742,18.547764295515783 -90.533055361100878,18.549582375792465 -90.534934624027443,18.549666856618977</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72751</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.496547630160364,18.549334184588464 -90.496802003109778,18.547265432049844 -90.494095981618997,18.547499680101716 -90.494504060290694,18.549027593279337 -90.496547630160364,18.549334184588464</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72752</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.466935055776275,18.549833974480872 -90.46693835651709,18.548032292075337 -90.464034851006616,18.548336837435329 -90.464006770308089,18.55018582206954 -90.466935055776275,18.549833974480872</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72753</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.463112550307116,18.566844489589826 -90.463191678129618,18.564850850889442 -90.462725614550507,18.564822021060152 -90.462112351944882,18.566835066733738 -90.463112550307116,18.566844489589826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72754</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.409988662047184,18.550652541180103 -90.409978061633439,18.547779962288534 -90.407270803047012,18.548341287228123 -90.407666880292012,18.549754758422413 -90.409988662047184,18.550652541180103</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72755</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.519173186979543,18.547774300341999 -90.51942704773893,18.547811432412985 -90.519336903056811,18.544297929902477 -90.518008862546296,18.544557236618232 -90.515118933670635,18.54372152408212 -90.513850988412784,18.543740357470462 -90.513493760417191,18.544682023174996 -90.515373354647167,18.544595698459357 -90.515727289646009,18.545817614301235 -90.518309598577304,18.545364752405082 -90.519173186979543,18.547774300341999</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72756</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.498622360136324,18.544118384915528 -90.498988044322928,18.543289866390747 -90.497315173713204,18.543305119607282 -90.489630154505647,18.543951602083631 -90.490560965156888,18.547190877508623 -90.497077722080377,18.545204854492766 -90.497201897587829,18.544179978553313 -90.498622360136324,18.544118384915528</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72757</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.481632123522289,18.547306481295653 -90.482681315848765,18.543975523240654 -90.481704255519759,18.543765286767137 -90.481045653727577,18.545589661223371 -90.47722093973286,18.544929565928552 -90.476736755775264,18.547338024558993 -90.480127207500942,18.548150941348734 -90.480443720996817,18.547259362819037 -90.481632123522289,18.547306481295653</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72758</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.425146497523045,18.545742729197819 -90.426175037811305,18.545663678024471 -90.424245031843327,18.544250543571263 -90.424393271380808,18.545789517201165 -90.419543547865786,18.54594899580631 -90.419906381888893,18.547672303490927 -90.420749138817797,18.547754597733846 -90.424666585326179,18.548465332169084 -90.425332890567987,18.548509147475464 -90.425146497523045,18.545742729197819</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72782</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.417790178299853,18.537112041900418 -90.417860999720219,18.536341431151385 -90.414450894700138,18.535332196663024 -90.409853213794491,18.535122183001231 -90.402261726273423,18.534480264528881 -90.398526860509662,18.536585113957951 -90.398534558046407,18.537510347046815 -90.398590516518908,18.542809508478769 -90.398594998276536,18.543766764655341 -90.398599103959071,18.544645683753103 -90.39860334969616,18.545552816457171 -90.402514736462706,18.545465159750854 -90.40241557844837,18.542190484703823 -90.402753534653741,18.539695932481639 -90.40798987688909,18.540176792223065 -90.408028762898496,18.545344892292796 -90.403859190042155,18.545451716708545 -90.403684816313074,18.547011552405003 -90.409976960021936,18.546988134578605 -90.409954588121792,18.542324901073922 -90.408067463472989,18.542206975192077 -90.408114199203439,18.535761788670509 -90.409867664515147,18.536246019224379 -90.40986583918999,18.536785922687585 -90.414510108284233,18.536871927479016 -90.414581853351805,18.538941482833533 -90.414680747542889,18.541498040306578 -90.415501660394199,18.541507646847261 -90.415542355359847,18.539719962725869 -90.416148882758307,18.536982185124 -90.417790178299853,18.537112041900418</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-90.408081945186225,18.536324573060888 -90.408023159457372,18.538205241386454 -90.402706278608918,18.538048168664151 -90.402563701651161,18.536525107474851 -90.408081945186225,18.536324573060888</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72783</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.560261717372072,18.543426008130645 -90.560330798357754,18.542442380908344 -90.557689484332982,18.542238831666999 -90.557617924682873,18.54346295212056 -90.560261717372072,18.543426008130645</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72784</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.555060126341218,18.543760872732779 -90.554654900278166,18.54199738586026 -90.551142196023335,18.541724564846248 -90.55275642198383,18.544231185130702 -90.555060126341218,18.543760872732779</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72785</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.548285136830074,18.543231133851705 -90.545959728245776,18.542102482623449 -90.543865223408787,18.54336802439072 -90.544379829004825,18.54465775594808 -90.548285136830074,18.543231133851705</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72786</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.465257926908976,18.543755114646764 -90.464926383448145,18.542579708656898 -90.46395462410446,18.54270376461136 -90.462843462110257,18.54285744191786 -90.462871842495659,18.543896001422457 -90.463937049351827,18.543877822739603 -90.465257926908976,18.543755114646764</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72787</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.52704556654129,18.56472938269582 -90.52579976528871,18.562002798232893 -90.524230193934457,18.56179134190727 -90.524152513584355,18.564442103113162 -90.52704556654129,18.56472938269582</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72788</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.563577269781675,18.540308306584421 -90.564033598626835,18.538261201484033 -90.561082052100488,18.538103322602765 -90.560789188713201,18.539590612885657 -90.563577269781675,18.540308306584421</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72789</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.527364579955858,18.537989514936172 -90.527241576191798,18.535785910731462 -90.524406107135604,18.535719451968291 -90.524487623564397,18.537717308837781 -90.522074052450094,18.538498181396225 -90.522900279706306,18.540647962302874 -90.524589034814298,18.54091661481992 -90.524591391982952,18.540188700366766 -90.524546099367541,18.538573462476513 -90.527364579955858,18.537989514936172</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72790</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.512914717790395,18.540263593315903 -90.513235895177658,18.538298703869629 -90.512851427013402,18.5383649146615 -90.511444874505415,18.538142310031525 -90.510183546200651,18.538931822110602 -90.510262500305188,18.53621091686486 -90.50975034054477,18.536039360387992 -90.509389889706057,18.540398599512713 -90.510135465519738,18.540397668808229 -90.512914717790395,18.540263593315903</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72791</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.47878977669906,18.542089015088976 -90.479734917667287,18.538868806150614 -90.477706017851986,18.538187516950114 -90.477903015365158,18.537517683825421 -90.473648201738499,18.540443927894081 -90.47878977669906,18.542089015088976</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72792</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.411012666679341,18.542402008119421 -90.410773121176291,18.539535740786324 -90.409891703994248,18.539444459681135 -90.409954588121792,18.542324901073922 -90.411012666679341,18.542402008119421</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72793</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.431052387220149,18.536734749546536 -90.431084695402546,18.532599615602233 -90.431126909930441,18.529049777340227 -90.430186440313562,18.529202176200755 -90.430167393194395,18.532218243738303 -90.429155104321694,18.536561281054023 -90.428844861710019,18.541287293517854 -90.42979089705544,18.541422345483799 -90.431052387220149,18.536734749546536</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72821</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.554364805344761,18.536435125339434 -90.555612653634086,18.533541550051947 -90.554311428202112,18.532836004577728 -90.55133160378405,18.53503561709152 -90.554364805344761,18.536435125339434</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72822</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.545918997768496,18.528266137670727 -90.545298023185211,18.528310433742355 -90.543307684028576,18.525994603135445 -90.539910475060623,18.529640609368041 -90.540447762089784,18.532849571394685 -90.533783392630625,18.534480056924803 -90.539212854265884,18.536434031073501 -90.540393418912572,18.536847617959037 -90.539079524165842,18.534411102558028 -90.541757720488022,18.532003373178426 -90.545918997768496,18.528266137670727</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72823</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.533858000037895,18.535941934204708 -90.533783392630625,18.534480056924803 -90.533534167848558,18.530992853914626 -90.532524799752963,18.530943625701983 -90.532852407843038,18.535913878512172 -90.533858000037895,18.535941934204708</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72824</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.519326734812324,18.535627369474724 -90.519117154185381,18.534767371272071 -90.516357668485128,18.534056585384693 -90.516587264624405,18.533243778828979 -90.514365787193327,18.532240761702525 -90.514151717343694,18.534701638821311 -90.519326734812324,18.535627369474724</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72825</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.49100392993688,18.564478332664283 -90.491067227808884,18.564260566730674 -90.490245141631476,18.563047735209626 -90.487769720005673,18.562923480365473 -90.487639572932167,18.563332699391513 -90.486787947468017,18.564663486356228 -90.49100392993688,18.564478332664283</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72826</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.505767343654767,18.533710805503055 -90.505763919395889,18.532807200946191 -90.502313814718391,18.532895292795551 -90.495894605909044,18.53358305042995 -90.496123745315373,18.535104766938208 -90.496569273922731,18.53819003487807 -90.496902333328009,18.540485586026264 -90.498405346535293,18.535794095561759 -90.505767343654767,18.533710805503055</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72827</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.495894605909044,18.53358305042995 -90.495639711414327,18.531816761518932 -90.488563164094828,18.532706990501829 -90.488166403150458,18.534281859912312 -90.48811457444404,18.534480804299427 -90.495894605909044,18.53358305042995</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72828</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.491420968769745,18.528451468069353 -90.491414966504138,18.528231551305645 -90.491347301701964,18.526295179803459 -90.486653083383217,18.52719827809555 -90.48187207843965,18.528073572761588 -90.48191777240261,18.529626813696332 -90.48130522324783,18.533652443124232 -90.479204828419498,18.532890369017267 -90.479030907224512,18.533803467839608 -90.483330665628984,18.534592123625636 -90.487885067465825,18.535402063247584 -90.48811457444404,18.534480804299427 -90.488166403150458,18.534281859912312 -90.483507025423847,18.533828489238516 -90.483473189673447,18.532137147961816 -90.483212181445722,18.529460887314023 -90.491420968769745,18.528451468069353</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72829</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.471568534032841,18.538820649292681 -90.471717927093763,18.537951730113548 -90.46996702960891,18.537507591337231 -90.468158231069509,18.534085377299409 -90.466158504284408,18.533911151106771 -90.465239592958227,18.536546573022878 -90.465459723940839,18.536578391184559 -90.465271347918232,18.538346486224494 -90.471568534032841,18.538820649292681</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72830</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.565832786177765,18.533769950092339 -90.565971812178631,18.528814664700445 -90.560560107216929,18.526958384283621 -90.562468384178032,18.524060137454658 -90.562627466803619,18.520723504848732 -90.566229772869946,18.521991936999594 -90.566277477550813,18.520879696622629 -90.566299505351765,18.520366118004031 -90.560743667715954,18.516994890086302 -90.557031875580776,18.516750259210603 -90.558920146025599,18.5193740575411 -90.560377141793282,18.523430903368272 -90.558970805420415,18.523480430992109 -90.560230639578506,18.529093335662331 -90.557306269539595,18.528312046640785 -90.553498972698236,18.530112765206312 -90.556703797784408,18.530206324286496 -90.560626531028802,18.53273028250371 -90.561239416477349,18.530580458175443 -90.563767232534204,18.530721007058432 -90.563659954878418,18.533693901480301 -90.565832786177765,18.533769950092339</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72831</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.550197751727595,18.529196387106467 -90.549362638273692,18.528038011902922 -90.545918997768496,18.528266137670727 -90.550197751727595,18.529196387106467</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72832</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.539910475060623,18.529640609368041 -90.539320140796818,18.526734114633815 -90.534380051534896,18.527331777760232 -90.534704216235724,18.528664611843741 -90.533534167848558,18.530992853914626 -90.539910475060623,18.529640609368041</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72865</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.557306269539595,18.528312046640785 -90.555316098318428,18.523714872241136 -90.554559851366648,18.522768335079316 -90.547626401432368,18.515697214238731 -90.548036018230192,18.515535057394935 -90.548087279445951,18.514002326525297 -90.553066853306106,18.516470396717772 -90.557031875580776,18.516750259210603 -90.557142439447176,18.510294813534376 -90.555511465400599,18.506459889519785 -90.553590310826948,18.506494877658515 -90.553294019568384,18.510154551690388 -90.548347315137377,18.511237723082864 -90.547901069400368,18.51302945783501 -90.543397217097692,18.517599279058135 -90.546759136676471,18.516034954591035 -90.55018479100012,18.519785333609004 -90.553732822792128,18.5248662383012 -90.557306269539595,18.528312046640785</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72866</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.545115367556406,18.522944137947036 -90.543558184008447,18.521337160020607 -90.542827225674969,18.520615380252991 -90.539992284693582,18.522095626198194 -90.540198135641575,18.522501316744673 -90.541639390591754,18.524081216559875 -90.545115367556406,18.522944137947036</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72867</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.533820110018311,18.524725732223921 -90.533823525821674,18.523497567013504 -90.530943974724892,18.523991547346348 -90.530884531448407,18.52526888560698 -90.533820110018311,18.524725732223921</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72868</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.464678409747236,18.564973835220847 -90.464219477958522,18.562545413649996 -90.463279455104058,18.562442976674408 -90.463191678129618,18.564850850889442 -90.464678409747236,18.564973835220847</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72869</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.527779423952666,18.526785568826394 -90.527963079010831,18.526018452994464 -90.522510288031114,18.524815971610224 -90.522167951027939,18.526177736324691 -90.527779423952666,18.526785568826394</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72870</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.520508157187209,18.524397113375098 -90.521007841707345,18.523301854926771 -90.519168514392049,18.523007106896078 -90.519140531805078,18.525968503771377 -90.520612041538115,18.52545418691804 -90.520508157187209,18.524397113375098</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72871</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.51171883066732,18.525088487183275 -90.511730104595813,18.524146012020672 -90.509816099836911,18.524251757086212 -90.509755496147861,18.525133667243519 -90.510736983293441,18.525111081926934 -90.51171883066732,18.525088487183275</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72872</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.500430077707406,18.526021851483996 -90.500847173726171,18.524150931471887 -90.500079381813975,18.524042811810343 -90.499743332100351,18.525741655186085 -90.500430077707406,18.526021851483996</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72873</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.458154264696944,18.53029626892986 -90.458131115505239,18.526987993607008 -90.455688059957453,18.526958147259535 -90.456240189317924,18.530358732270443 -90.458154264696944,18.53029626892986</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72874</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.427353383756909,18.5321811590069 -90.427186847574276,18.529607779707316 -90.425198291993098,18.529469114951532 -90.425251018618013,18.528251712843751 -90.422090107743117,18.528400007082407 -90.421828653209332,18.530446093894955 -90.424950097001982,18.530343155615238 -90.424732963640025,18.53212104288459 -90.427353383756909,18.5321811590069</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72875</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.410632403633741,18.531416094695658 -90.410760434544798,18.528713725296424 -90.409804823979329,18.528628603067204 -90.409818602859147,18.531321798356917 -90.410632403633741,18.531416094695658</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72876</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.403255493751658,18.531572932121524 -90.403660826333208,18.526546037245531 -90.402356246145004,18.52653306872439 -90.402319002994588,18.530131011569907 -90.398467327195149,18.529128540360645 -90.398478998849356,18.530769038609115 -90.402304345667957,18.531568502917803 -90.403255493751658,18.531572932121524</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72877</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.530943974724892,18.523991547346348 -90.53055810333494,18.52031207795898 -90.529005784624687,18.520581070264267 -90.528372914860455,18.524389784315886 -90.530943974724892,18.523991547346348</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72878</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.515802346422291,18.523910824156751 -90.516339082917312,18.522521403149081 -90.513222067659328,18.52195106172864 -90.51305683705219,18.52406636714878 -90.515802346422291,18.523910824156751</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72879</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.498008323866003,18.559211453831772 -90.4949485277387,18.558832859786296 -90.494331205400627,18.564409375430948 -90.498008323866003,18.559211453831772</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72906</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.482876736474267,18.52403064595574 -90.483320472853563,18.521241861407216 -90.482148806111269,18.52160724885654 -90.481898044691334,18.524097683262106 -90.482876736474267,18.52403064595574</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72907</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.428456167458748,18.529455791994355 -90.428216696067551,18.524484780858348 -90.427631329406779,18.520617224668268 -90.426592096454783,18.520601087149657 -90.426890184075276,18.525106199868091 -90.427186847574276,18.529607779707316 -90.428456167458748,18.529455791994355</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72908</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.536403602872241,18.519779875466316 -90.53635275827655,18.519334152441697 -90.53625314064027,18.518422367498395 -90.532578305318395,18.519153401235947 -90.533095911597002,18.519842229605704 -90.533330682389561,18.520261299515433 -90.536403602872241,18.519779875466316</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72909</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.501287809163415,18.521392928762008 -90.501742440365277,18.519870230267397 -90.500122231316951,18.519845317156843 -90.499854809907475,18.517199681775899 -90.499114756803962,18.517275343734863 -90.49900143167666,18.517284844120702 -90.498487739128649,18.521162304784088 -90.501287809163415,18.521392928762008</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72910</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.495938354222503,18.519232722851132 -90.495861234224037,18.517551443360158 -90.49109247256284,18.517667419506949 -90.491101900588234,18.518079583640596 -90.490130907698543,18.518130531810172 -90.490318964717815,18.52353675604968 -90.491260818750916,18.523481991389819 -90.491136937390138,18.519406703293392 -90.495938354222503,18.519232722851132</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72911</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.47889004009177,18.521415730969355 -90.478443410067271,18.518834674664557 -90.476877897020444,18.514533276204126 -90.477214009705293,18.518940330778864 -90.475822404174465,18.519078121298495 -90.476001056487846,18.52180369218399 -90.477274633563368,18.52162629690298 -90.47889004009177,18.521415730969355</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72912</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.427631329406779,18.520617224668268 -90.432356445757435,18.51640952577565 -90.426642120224031,18.512823823561426 -90.427205485910576,18.516115085128906 -90.42713052390846,18.51611678292161 -90.427631329406779,18.520617224668268</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72913</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.434291354077359,18.513150724444937 -90.433848557665769,18.507690280959626 -90.437710782266336,18.46912521950021 -90.398328140981363,18.469442460098083 -90.398357320762258,18.519371735760572 -90.40183172308717,18.519752591436529 -90.403228110912536,18.515417899707213 -90.406814446437338,18.515223357057234 -90.40591782739105,18.521507876458859 -90.406033359788239,18.522415125026779 -90.409777320447091,18.523472567309696 -90.413976264067941,18.522657718501815 -90.413907329543193,18.520189600737236 -90.414903767545056,18.520231772788897 -90.417711602706504,18.520363986578115 -90.417246049452345,18.524164933058884 -90.414045692818121,18.524403662683209 -90.414155167452179,18.527425097975208 -90.41946235937219,18.525728772308721 -90.419880422815538,18.528526366804709 -90.422090107743117,18.528400007082407 -90.422834624726946,18.525113175843632 -90.423083406605983,18.525151067228173 -90.423843840214033,18.5206329584163 -90.424660745306824,18.520663654957101 -90.423590960001576,18.515942764397842 -90.419777741119304,18.515733146919846 -90.420618744522216,18.512317909421544 -90.418903078941284,18.512194140069941 -90.418916656360523,18.513363062784947 -90.41472926755921,18.513228776537282 -90.409710532449566,18.514178552393147 -90.409667876635311,18.508490591590423 -90.414305526889308,18.508968019626032 -90.418886729048765,18.509479749610755 -90.423644750368496,18.509510442698822 -90.428587113636766,18.509599929976794 -90.433058693037808,18.510335692816305 -90.433367133274203,18.513211778582559 -90.434291354077359,18.513150724444937</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72914</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.525765361391151,18.518901876039148 -90.52569647051773,18.517664605314735 -90.51948084527838,18.516819020063327 -90.51941282792194,18.518021978618719 -90.525765361391151,18.518901876039148</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72915</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.496861011661238,18.51749809186898 -90.496945563572396,18.515558040775378 -90.495809751982392,18.515416133893101 -90.495861234224037,18.517551443360158 -90.496861011661238,18.51749809186898</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72916</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.467405896143759,18.561024021481671 -90.466964045602438,18.559141594934889 -90.465062740688836,18.559028054223408 -90.465142463724376,18.558113236398984 -90.464105289603296,18.557930289512925 -90.462600715643305,18.557504935022404 -90.462878744069741,18.561040229092999 -90.464169995313924,18.56124798629045 -90.467405896143759,18.561024021481671</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72946</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.487237330560902,18.518261089206643 -90.487221369997272,18.512727425331025 -90.486250372310835,18.512751714602253 -90.486217674181503,18.511737143014134 -90.485694565280994,18.512762213231174 -90.485524715768108,18.518326336438044 -90.486478542627339,18.518294971227331 -90.487237330560902,18.518261089206643</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72947</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.462389087403366,18.516652589683911 -90.462392086891725,18.515952643848067 -90.45808739135903,18.516001742297558 -90.458079142632698,18.516686723457614 -90.462389087403366,18.516652589683911</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72948</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.536471321497672,18.513158066835757 -90.536718731517809,18.511303315242785 -90.532006513401981,18.511207428084806 -90.532156918588754,18.51570783271087 -90.536471321497672,18.513158066835757</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72949</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.530082239192126,18.516284192837681 -90.529987337790786,18.515501862551144 -90.529686015671388,18.513239676106277 -90.528291727005552,18.515473419399051 -90.530082239192126,18.516284192837681</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72950</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.51957629378154,18.515146140896373 -90.519641489000207,18.514070947341658 -90.513933613332028,18.513177172778164 -90.509814255383048,18.514250336122039 -90.509934931092076,18.516021852071177 -90.513717300625828,18.515967831343264 -90.513863522142998,18.514223233567915 -90.51957629378154,18.515146140896373</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72951</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.491016455914249,18.514145700194611 -90.49099107728334,18.511091501695798 -90.48967808366497,18.511121313000682 -90.489793453558889,18.512671305108739 -90.491016455914249,18.514145700194611</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72952</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.476877897020444,18.514533276204126 -90.47678834980114,18.513012171658023 -90.475156543067726,18.513062053152918 -90.474391706763342,18.516323441234608 -90.476877897020444,18.514533276204126</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72953</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.448690191687703,18.515813800880018 -90.4490419300394,18.512963709880086 -90.449089535109877,18.51014950179572 -90.449329552641032,18.507539477455207 -90.448317587236843,18.507545014552342 -90.447863218807257,18.513933545175764 -90.444019470826717,18.513924864488192 -90.444074930872432,18.511013898177868 -90.439987432548321,18.512482572114134 -90.440082227347162,18.512973773591874 -90.44102328262737,18.516124757533117 -90.448690191687703,18.515813800880018</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72954</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.504183149276045,18.511818508257885 -90.504045168969071,18.510956052022937 -90.499783048508519,18.511009352675625 -90.499714897693678,18.511897288080998 -90.504183149276045,18.511818508257885</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72955</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.566621376692709,18.512597629489047 -90.566692042862542,18.510817433974125 -90.560193360978971,18.50870176296889 -90.560057732928783,18.510480135762428 -90.560988727760531,18.510573830472996 -90.56098702304412,18.510772900564923 -90.566621376692709,18.512597629489047</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72956</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.565208583413636,18.560504006868399 -90.565248213512433,18.558436517252655 -90.565263470033656,18.557640391517584 -90.561183069666313,18.557187703901054 -90.561835454311762,18.560973534753849 -90.565208583413636,18.560504006868399</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72957</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.543266435281552,18.511226232434414 -90.543814661098097,18.506541842531512 -90.542079301568421,18.506560747326631 -90.541575657926359,18.510967366121804 -90.543266435281552,18.511226232434414</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72958</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.531828007481153,18.507144426686061 -90.531735778767512,18.506688030095958 -90.505521143660573,18.507077598760169 -90.505537453857897,18.508053336342332 -90.507606412680971,18.508170365263073 -90.511574910142002,18.507651208840436 -90.517259355530712,18.507815906909453 -90.525188291707025,18.507753669430603 -90.528616282174482,18.507933373352706 -90.528734480845571,18.507098230925831 -90.531828007481153,18.507144426686061</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72959</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.497101722928079,18.509569353112241 -90.496195475357453,18.507208187219753 -90.490940502928623,18.507249050463852 -90.49099107728334,18.511091501695798 -90.495669944508137,18.511034429766621 -90.495598014689719,18.509642777396696 -90.497101722928079,18.509569353112241</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LA LIBERTAD</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">72960</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">3</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">LA LIBERTAD</SimpleData>
+			<SimpleData name="IdMunicipio">9</SimpleData>
+			<SimpleData name="NombreMunicipio">ESCÁRCEGA</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.473005726499011,18.511089856870235 -90.472887198566994,18.509690475907625 -90.471717629012318,18.509596249903758 -90.471642528575387,18.511091064398169 -90.473005726499011,18.511089856870235</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

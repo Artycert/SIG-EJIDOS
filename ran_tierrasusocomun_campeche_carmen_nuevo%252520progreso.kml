@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - CARMEN</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>NUEVO PROGRESO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">1257</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">67</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NUEVO PROGRESO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-92.316535973346006,18.665766044548015 -92.316569621294477,18.665291038759825 -92.315242509220653,18.664606531317006 -92.31523799011002,18.66467885094308 -92.315219979819105,18.665124107781647 -92.315202641127698,18.665555557754374 -92.315335873393948,18.665637643005304 -92.315323425764674,18.666119160437283 -92.315313003730409,18.66664169736616 -92.31531155138731,18.666738971636434 -92.315303308547016,18.667174467354492 -92.315299314348181,18.667335699716645 -92.315770964511984,18.667319660012396 -92.315799389487481,18.666166299329888 -92.316269734279629,18.666245680421277 -92.316279207174603,18.665788887650407 -92.316535973346006,18.665766044548015</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>NUEVO PROGRESO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">1258</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">67</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NUEVO PROGRESO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-92.316482389893309,18.629399687689379 -92.316536875927383,18.629398376374123 -92.316570149373149,18.626813266457308 -92.316377980178885,18.626779129471014 -92.316097507404464,18.626737902231937 -92.315816481963139,18.626697422683737 -92.315534916008062,18.626657022090797 -92.315254220330957,18.626617121311362 -92.314973100608057,18.626576622095911 -92.314691441566936,18.626535903598974 -92.305269594948555,18.625127413473916 -92.303406142853902,18.624973248858328 -92.303477369270951,18.625846906831807 -92.303478889753293,18.625911160138035 -92.303509683202137,18.626459607118996 -92.303496037171072,18.627692002061533 -92.305320095326067,18.627957498885792 -92.307057203992841,18.628332355320499 -92.307058339946309,18.628475450492051 -92.308808862821579,18.628740037490729 -92.308861227471084,18.628810858071066 -92.310734715810185,18.629041229158428 -92.311755674115332,18.629178152860003 -92.312772018570186,18.629319536822411 -92.312819170681735,18.629329144234958 -92.314660992917567,18.62958468399664 -92.314667376482987,18.62906818549957 -92.315595195178801,18.629244008160384 -92.316482389893309,18.629399687689379</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>NUEVO PROGRESO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">1259</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">67</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NUEVO PROGRESO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-92.318301830762479,18.625264803289273 -92.318480887956881,18.625075428668868 -92.316552498408626,18.622272727252202 -92.315969737278508,18.621663793677158 -92.315692576750067,18.621441239945391 -92.314716397826686,18.62086084922943 -92.314048777066191,18.620597648115051 -92.312892421640228,18.620334450480531 -92.301550797443809,18.618734707419453 -92.301397365837488,18.620965617994276 -92.301465013743879,18.622629250554787 -92.301665837769605,18.62264281108105 -92.302121997966097,18.622694245741531 -92.302264478596001,18.622702519215871 -92.302359520333567,18.622700060908453 -92.302454953892138,18.622696826779059 -92.302595098239962,18.622703844166722 -92.302733185721479,18.622715471999264 -92.302830701710633,18.62272461775272 -92.303035703636638,18.622750501396158 -92.303274248108764,18.622819599879051 -92.303749914026383,18.622893009773843 -92.303887428418619,18.62291275033488 -92.304037239453606,18.622936729680784 -92.304128049516947,18.622953884318836 -92.304357482666319,18.623007231513984 -92.304448860421971,18.623029331619467 -92.304979475078099,18.62302467662229 -92.305072840427158,18.623028898520175 -92.305158634188615,18.623051167451059 -92.305212843617582,18.623066107795246 -92.305243608408915,18.623072168065221 -92.305388897308006,18.623070661922149 -92.305574752912008,18.623105545817449 -92.3056663190644,18.623111649624576 -92.305765340585907,18.623133000073071 -92.305836424339319,18.623140754400612 -92.305975751964766,18.62315295380764 -92.306054961698194,18.623162545525595 -92.306111279827519,18.623174131432918 -92.306161544474392,18.623177741987217 -92.306229940081835,18.623191523318784 -92.306417510670883,18.623214998325079 -92.30667722233926,18.623249683386618 -92.307132313900539,18.623299014382447 -92.307433212867451,18.623317681925922 -92.307894989494685,18.623376000912831 -92.308072364176653,18.6233939058184 -92.308262891715714,18.623420019789624 -92.308452854873636,18.623440374593581 -92.308641966527262,18.623490821029836 -92.308836898847048,18.623527163009047 -92.309018011785227,18.623546662326845 -92.309062478931338,18.623549338032984 -92.309531208345661,18.623618659156801 -92.309766401644154,18.623647700983753 -92.310126141955749,18.623701419722995 -92.310219618483941,18.623713475022711 -92.310313553673254,18.623719928691699 -92.310376334542639,18.623718107258945 -92.310448673764213,18.623722601910771 -92.310476349100455,18.623723823973936 -92.310666976897764,18.623753487645828 -92.310946625667057,18.623785881098524 -92.312812586909018,18.624031864584627 -92.312851543277688,18.624035377841075 -92.313084204032776,18.624069828821302 -92.313313650132358,18.624114019279769 -92.313565607385769,18.624149498063893 -92.313967883231044,18.624208389544947 -92.314165581535434,18.624243407623368 -92.314396714808566,18.624280689212888 -92.31470450191452,18.624336442247458 -92.315636437015584,18.624439002736413 -92.316593739310079,18.624537186228952 -92.316601450341395,18.6249892807088 -92.318040592530181,18.62530717358371 -92.318301830762479,18.625264803289273</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>NUEVO PROGRESO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">1260</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">67</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NUEVO PROGRESO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-92.281566009340025,18.62134663844515 -92.281593921338441,18.621160419210117 -92.279665469155532,18.620796058439264 -92.279602916550246,18.621176116171206 -92.279672173517312,18.621180421016284 -92.279640873256639,18.621450413407739 -92.280578234640771,18.621517152912446 -92.280614037052729,18.621301040920997 -92.28069159634137,18.621301237961919 -92.280712978825321,18.621193728468633 -92.281566009340025,18.62134663844515</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>NUEVO PROGRESO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">1261</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">67</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NUEVO PROGRESO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-92.301550797443809,18.618734707419453 -92.284124027139583,18.61632607445268 -92.283419736772899,18.616349558278976 -92.28287359997806,18.61643528675053 -92.282025925147209,18.616680929862639 -92.280668648226694,18.617405154490779 -92.277987506003953,18.619706468833481 -92.277904857216043,18.620296886525615 -92.281613253539888,18.620848012986734 -92.281628628399005,18.620647258791323 -92.281907129014868,18.617648572352017 -92.301550797443809,18.618734707419453</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>NUEVO PROGRESO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71776</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">67</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NUEVO PROGRESO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-92.373434006535135,18.582221408565331 -92.378424333029685,18.550796297260611 -92.328322238087196,18.568239968735448 -92.330285927223741,18.563741159094075 -92.290918872938164,18.569636983486184 -92.291939155393592,18.581933716659677 -92.273384604704759,18.584395205102947 -92.274130948537291,18.592774127375147 -92.292690319785947,18.591301625567478 -92.292485074555572,18.594991392381729 -92.289459525148928,18.599158928838314 -92.296851161736271,18.600434717838446 -92.296945133824778,18.598574720649747 -92.298380646258138,18.598525521699724 -92.299804438757377,18.59840322688521 -92.301238755987683,18.598279532352574 -92.302646806325711,18.598184098441951 -92.305625685845826,18.599764090620326 -92.311258560835611,18.599021059678655 -92.315491820565668,18.599298062473757 -92.318309628021112,18.599537300638129 -92.319700512782319,18.599524370856951 -92.321036854429735,18.601009562854845 -92.325363648507164,18.599708876622124 -92.328291063473714,18.599963939300668 -92.328317403757993,18.595801560383464 -92.328353791922424,18.585368956624858 -92.363276570453209,18.587038946720455 -92.361584911008862,18.59868047897989 -92.363965375720198,18.600018923467811 -92.370465791509289,18.600906753586042 -92.371899849651228,18.591879702136058 -92.373434006535135,18.582221408565331</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-92.358850576846223,18.581493752815216 -92.358930499936093,18.582641641671177 -92.333934621988831,18.585070200801006 -92.33404285651352,18.583876662296277 -92.358850576846223,18.581493752815216</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

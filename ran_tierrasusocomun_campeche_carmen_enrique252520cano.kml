@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Tierras de Uso Común - CAMPECHE - CARMEN</name>
+	<Schema name="CapaTierrasUsoComun" id="tierrasusocomun_id">
+	<SimpleField type="double" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Zona"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreLocalidad"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdEntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff593004</color>
+</LineStyle>
+<PolyStyle>
+	<color>8cebe7c5</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>7cedebdb</color>
+	<outline>1</outline>
+	<linecolor>ff593004</linecolor>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logos/ran-sedatu-logo.jpg" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Tierras de Uso Común</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td width="120px" align="right"><font size="2" face="verdana" color="#000000">IdTierraUsoComun : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdTierraUsoComun]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaTierrasUsoComun/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>ENRIQUE RODRIGUEZ CANO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71830</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">97</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">ENRIQUE RODRIGUEZ CANO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.886050751601942,18.675141145115603 -90.886050861973246,18.675140935288034 -90.882141188138817,18.674016308978945 -90.877830900010423,18.672785634894051 -90.877447879042975,18.675481206519926 -90.874534666920482,18.674709512100904 -90.874057728487386,18.677050156960984 -90.871007539926381,18.692529923206443 -90.870396602188805,18.695629999298863 -90.875291960276741,18.696182707971076 -90.881563373249634,18.696890588877974 -90.882339465479859,18.691021104031652 -90.883349836074515,18.683378956759391 -90.883679582391437,18.68166740729848 -90.882242536686178,18.681359305581971 -90.882640701358412,18.677757233756157 -90.884461119030377,18.678163135980313 -90.886050751601942,18.675141145115603</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-90.874808084488535,18.695749006210772 -90.874785951301092,18.695772548263452 -90.874761237741907,18.695751456067747 -90.874772305503527,18.695739679345529 -90.874783371042057,18.695727904986331 -90.874808084488535,18.695749006210772</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-90.872665365469842,18.693919975230674 -90.872643232279245,18.693943517028625 -90.872618528735003,18.693922424706848 -90.872629598821234,18.693910650097571 -90.872640661925615,18.693898882911849 -90.872665365469842,18.693919975230674</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-90.871220468343822,18.692686560672826 -90.871198335038457,18.692710111330694 -90.871173622379146,18.692689018744009 -90.871184696790934,18.692677240259162 -90.871195765161985,18.692665468196601 -90.871220468343822,18.692686560672826</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>ENRIQUE RODRIGUEZ CANO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71831</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">97</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">ENRIQUE RODRIGUEZ CANO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.8966301789998,18.67484225522173 -90.896561679440438,18.674663561941525 -90.89640850672221,18.674814251946316 -90.89644979407305,18.674933906854847 -90.8966301789998,18.67484225522173</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>ENRIQUE RODRIGUEZ CANO</name><styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#tierrasusocomun_id">
+			<SimpleData name="IdTierraUsoComun">71832</SimpleData>
+			<SimpleData name="Area"></SimpleData>
+			<SimpleData name="IdNucleoAgrario">97</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">ENRIQUE RODRIGUEZ CANO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.904206307926515,18.670903113368482 -90.904189622612108,18.670337532174756 -90.904187724621366,18.670255227871863 -90.903315201671106,18.67026342344462 -90.902977307019739,18.670094612918209 -90.90297237272317,18.670273884097355 -90.903507120985722,18.670934192813583 -90.904206307926515,18.670903113368482</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"  xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>RAN Parcelas - CAMPECHE - CARMEN</name>
+	<Schema name="CapaParcelas" id="parcelas_id">
+	<SimpleField type="string" name="Area"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NumParcela"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreNucleoAgrario"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="Tipo"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="IdMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreMunicipio"><displayName></displayName></SimpleField>
+	<SimpleField type="int" name="EntidadFederativa"><displayName></displayName></SimpleField>
+	<SimpleField type="string" name="NombreEntidadFederativa"><displayName></displayName></SimpleField>
+	</Schema>
+<Style id="normalState">
+<LabelStyle>
+	<color>ff767676</color>
+	<scale>1.1</scale>
+</LabelStyle>
+<IconStyle>
+	<scale>1.1</scale>
+</IconStyle>
+<LineStyle>
+	<color>ff115923</color>
+</LineStyle>
+<PolyStyle>
+	<color>8c47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+</Style>
+<Style id="highlightState">
+<PolyStyle>
+	<color>AA47D60D</color>
+	<outline>1</outline>
+</PolyStyle>
+<BalloonStyle>
+<text>
+<![CDATA[
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center" colspan="2"><img src="https://sig.ran.gob.mx/img/logo_pie_pagina.png" width="260" height="35"></td></tr>
+<tr><td align="center" colspan="2"><font size="2" face="verdana" color="#696969">Registro Agrario Nacional</font></td></tr>
+<tr><td align="center" colspan="2"><b><font size="2" face="verdana" color="#2B422A">Parcelas</font></b></td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:1px solid #0C6304" width="400px">
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Area (ha) : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Area]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">No. Parcela : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NumParcela]</font></td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreNucleoAgrario : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreNucleoAgrario]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">Tipo : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/Tipo]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreMunicipio : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreMunicipio]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">IdEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/IdEntidadFederativa]</td></tr>
+<tr><td align="right"><font size="2" face="verdana" color="#000000">NombreEntidadFederativa : </font></td><td><font size="2" face="verdana" color="#555555">$[CapaParcelas/NombreEntidadFederativa]</td></tr>
+</table>
+<table cellpadding="2" cellspacing="2" style="border:0px solid #0C6304" width="400px">
+<tr><td align="center"><font size="2" face="verdana" color="#696969">Sistema de Información Geoespacial</font></b></td></tr>
+</table>
+]]>
+</text>
+</BalloonStyle>
+</Style>
+<StyleMap id="estiloMapa">
+<Pair>
+	<key>normal</key>
+	<styleUrl>#normalState</styleUrl>
+</Pair>
+<Pair>
+	<key>highlight</key>
+	<styleUrl>#highlightState</styleUrl>
+</Pair>
+</StyleMap>
+<Placemark>
+	<name>Parcela No. 28</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">43.829680541292</SimpleData>
+			<SimpleData name="NumParcela">28</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.018824270836149,18.743184284269127 -91.019200617219965,18.739248182478828 -91.013303082114945,18.738817893794184 -91.012856179084679,18.742606418414471 -91.011714912655975,18.742500741527053 -91.01173230586943,18.742588759951481 -91.012104642479557,18.744494458706551 -91.018381931739441,18.745578982279394 -91.018422181580974,18.745077112511826 -91.01857114635942,18.743161268961039 -91.018824270836149,18.743184284269127</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 29</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">11.754355892963</SimpleData>
+			<SimpleData name="NumParcela">29</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.958621728243912,18.746686834672268 -90.960134415438958,18.745396264353992 -90.955365267338024,18.740465219637539 -90.95532188948674,18.74105812766657 -90.95525433449005,18.741981599375922 -90.955236764874641,18.742221748366422 -90.958621728243912,18.746686834672268</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 3</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">68.864773278854</SimpleData>
+			<SimpleData name="NumParcela">3</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.023830934533194,18.749864763989915 -91.024142458345509,18.746794901963931 -91.018422181580974,18.745077112511826 -91.018381931739441,18.745578982279394 -91.017732990101862,18.753447995753518 -91.022922884933209,18.758811973013263 -91.02310926927602,18.756975601187886 -91.023830934533194,18.749864763989915</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 30</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">48.978205500072</SimpleData>
+			<SimpleData name="NumParcela">30</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.992005286749475,18.743248654682567 -90.992660085798533,18.741352872987168 -90.982457283009651,18.740177491997457 -90.982475916755959,18.74014301345575 -90.980435567102163,18.740141743154627 -90.978948738211969,18.740147134752629 -90.978848045111206,18.742115419429457 -90.981793654811767,18.742051001819128 -90.981139648661653,18.74385711360917 -90.977915171605261,18.744125957182597 -90.977647969361641,18.744988697937714 -90.988427085068494,18.743790228627038 -90.988683761745889,18.743102920294426 -90.992005286749475,18.743248654682567</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 31</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">51.312319926086</SimpleData>
+			<SimpleData name="NumParcela">31</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.96245121544419,18.738872139040044 -90.961697426230543,18.73832330038903 -90.9558357128453,18.734033983824695 -90.955365267338024,18.740465219637539 -90.960134415438958,18.745396264353992 -90.960978566606713,18.744673738129546 -90.960381765286186,18.744070922074531 -90.961849016190669,18.741512349130975 -90.961449924489074,18.741149060365043 -90.96245121544419,18.738872139040044</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 48</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">0.953908467592</SimpleData>
+			<SimpleData name="NumParcela">48</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.969697909804466,18.736996665472947 -90.970125276888368,18.736229288313428 -90.969195888794005,18.736093080894747 -90.968647104738892,18.736823293151424 -90.969697909804466,18.736996665472947</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 32</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">13.427955536891</SimpleData>
+			<SimpleData name="NumParcela">32</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.965322000198313,18.740946737720019 -90.96245121544419,18.738872139040044 -90.961449924489074,18.741149060365043 -90.961849016190669,18.741512349130975 -90.960381765286186,18.744070922074531 -90.960978566606713,18.744673738129546 -90.965322000198313,18.740946737720019</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 33</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">9.483202366033</SimpleData>
+			<SimpleData name="NumParcela">33</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.981139648661653,18.74385711360917 -90.981793654811767,18.742051001819128 -90.978848045111206,18.742115419429457 -90.977008152437691,18.742511307251892 -90.976854944793033,18.743474882097832 -90.977526278746069,18.744153415504783 -90.977915171605261,18.744125957182597 -90.981139648661653,18.74385711360917</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 34</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">3.081336544814</SimpleData>
+			<SimpleData name="NumParcela">34</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.977008152437691,18.742511307251892 -90.977417944110243,18.740449402026854 -90.976721944993301,18.739675155259054 -90.97633969389517,18.741223751537092 -90.976186894092834,18.742801359620199 -90.976854944793033,18.743474882097832 -90.977008152437691,18.742511307251892</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 36</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">37.032736548471</SimpleData>
+			<SimpleData name="NumParcela">36</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.012856179084679,18.742606418414471 -91.013303082114945,18.738817893794184 -91.0052490177804,18.73822995392662 -91.00484551287316,18.74229098034488 -91.00826432968617,18.742422160014542 -91.01173230586943,18.742588759951481 -91.011714912655975,18.742500741527053 -91.012856179084679,18.742606418414471</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 37</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">46.554880040487</SimpleData>
+			<SimpleData name="NumParcela">37</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.0052490177804,18.73822995392662 -91.005587137499361,18.734762482022578 -91.000092206787031,18.734815094199298 -90.999360217129436,18.741632353014527 -90.999356745023817,18.741725054160835 -91.00484551287316,18.74229098034488 -91.0052490177804,18.73822995392662</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 38</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">45.595059838867</SimpleData>
+			<SimpleData name="NumParcela">38</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.992798617149447,18.740964626595336 -90.994076213133681,18.737142661555126 -90.991860585349968,18.737495424801534 -90.989327064326034,18.737909895158204 -90.983268009699884,18.737910629500316 -90.983528801397512,18.73720570375388 -90.981224305544572,18.736730648192701 -90.981013205994927,18.737651174709889 -90.980435567102163,18.740141743154627 -90.982475916755959,18.74014301345575 -90.982457283009651,18.740177491997457 -90.992660085798533,18.741352872987168 -90.992798617149447,18.740964626595336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 39</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.367522902134</SimpleData>
+			<SimpleData name="NumParcela">39</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.999360217129436,18.741632353014527 -91.000092206787031,18.734815094199298 -90.997536817173454,18.73484566668705 -90.99593307350267,18.741285943311745 -90.999360217129436,18.741632353014527</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 4</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">51.385067221904</SimpleData>
+			<SimpleData name="NumParcela">4</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.990797608015825,18.751980868346529 -90.990712130788495,18.749660457035208 -90.990496177735892,18.749637224388167 -90.990302951401631,18.749663079774084 -90.975535615314598,18.751915109699286 -90.974515192441018,18.755275141336856 -90.988986356901478,18.752370210162379 -90.990797608015825,18.751980868346529</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 40</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">24.620647970047</SimpleData>
+			<SimpleData name="NumParcela">40</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.99593307350267,18.741285943311745 -90.997536817173454,18.73484566668705 -90.992766414915494,18.734870799631199 -90.992614286891467,18.735952855083287 -90.992792937421441,18.735997273907071 -90.994336373424886,18.736355694766711 -90.994076213133681,18.737142661555126 -90.992798617149447,18.740964626595336 -90.99593307350267,18.741285943311745</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 41</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">10.15320924603</SimpleData>
+			<SimpleData name="NumParcela">41</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.980435567102163,18.740141743154627 -90.981013205994927,18.737651174709889 -90.9768156967435,18.737371901486426 -90.977844591934712,18.738361163673254 -90.977492143244547,18.739198250578863 -90.977417190454702,18.740405202295126 -90.978948738211969,18.740147134752629 -90.980435567102163,18.740141743154627</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 42</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">9.539620801932</SimpleData>
+			<SimpleData name="NumParcela">42</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.965322000198313,18.740946737720019 -90.966696118315042,18.739757958186551 -90.963045149151242,18.737026835342448 -90.961697426230543,18.73832330038903 -90.96245121544419,18.738872139040044 -90.965322000198313,18.740946737720019</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 43</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">12.905959939041</SimpleData>
+			<SimpleData name="NumParcela">43</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.981224305544572,18.736730648192701 -90.981637716104927,18.734924729358134 -90.977759253559356,18.734718399439124 -90.9768156967435,18.737371901486426 -90.981013205994927,18.737651174709889 -90.981224305544572,18.736730648192701</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 44</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">52.960231244037</SimpleData>
+			<SimpleData name="NumParcela">44</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.970125276888368,18.736229288313428 -90.970490366739028,18.735037955833715 -90.963321366515558,18.734163279106333 -90.955882420050855,18.73339552906798 -90.9558357128453,18.734033983824695 -90.961697426230543,18.73832330038903 -90.963045149151242,18.737026835342448 -90.966696118315042,18.739757958186551 -90.969115658210583,18.737664682213431 -90.969446600538461,18.737324913767303 -90.969697909804466,18.736996665472947 -90.968647104738892,18.736823293151424 -90.969195888794005,18.736093080894747 -90.970125276888368,18.736229288313428</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 45</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">50.588595058626</SimpleData>
+			<SimpleData name="NumParcela">45</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.994076213133681,18.737142661555126 -90.994336373424886,18.736355694766711 -90.992792937421441,18.735997273907071 -90.992614286891467,18.735952855083287 -90.992766414915494,18.734870799631199 -90.992931788618122,18.733420128757981 -90.99080777467951,18.73319704046828 -90.987128419075816,18.732815111937139 -90.98474492254347,18.73255253459541 -90.984427635179273,18.73476954665033 -90.983528801397512,18.73720570375388 -90.983268009699884,18.737910629500316 -90.989327064326034,18.737909895158204 -90.991860585349968,18.737495424801534 -90.994076213133681,18.737142661555126</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 47</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">8.381070379019</SimpleData>
+			<SimpleData name="NumParcela">47</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.983528801397512,18.73720570375388 -90.984427635179273,18.73476954665033 -90.981912529817933,18.73371230345041 -90.981637716104927,18.734924729358134 -90.981224305544572,18.736730648192701 -90.983528801397512,18.73720570375388</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 53</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">6.079591018843</SimpleData>
+			<SimpleData name="NumParcela">53</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.97676177122375,18.733772991994563 -90.977218384993819,18.731752177372062 -90.974358655165091,18.731451287832243 -90.974225206849397,18.733193512822211 -90.97676177122375,18.733772991994563</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 55</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">17.612160252228</SimpleData>
+			<SimpleData name="NumParcela">55</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.963321366515558,18.734163279106333 -90.963693037103681,18.732230059813809 -90.961825045453509,18.732025167669722 -90.956029158472916,18.731389315895086 -90.955882420050855,18.73339552906798 -90.963321366515558,18.734163279106333</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 56</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">62.748389178482</SimpleData>
+			<SimpleData name="NumParcela">56</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.005587137499361,18.734762482022578 -91.005744245567428,18.733151284506029 -90.99327077270496,18.730602271012845 -90.993227418951932,18.730927030949573 -90.987677375090072,18.729780268752137 -90.987128419075816,18.732815111937139 -90.99080777467951,18.73319704046828 -90.992931788618122,18.733420128757981 -90.992766414915494,18.734870799631199 -90.997536817173454,18.73484566668705 -91.000092206787031,18.734815094199298 -91.005587137499361,18.734762482022578</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 57</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">6.095078368151</SimpleData>
+			<SimpleData name="NumParcela">57</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.974225206849397,18.733193512822211 -90.974358655165091,18.731451287832243 -90.971340361401104,18.731134770678878 -90.971134348008604,18.732775536024864 -90.972081667658884,18.732897554554988 -90.974225206849397,18.733193512822211</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 58</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">60.155826274698</SimpleData>
+			<SimpleData name="NumParcela">58</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.005744245567428,18.733151284506029 -91.0061890091404,18.728589632190168 -90.993818450687954,18.727048698919518 -90.993635089747926,18.727877899376228 -90.99327077270496,18.730602271012845 -91.005744245567428,18.733151284506029</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 59</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">35.000438166036</SimpleData>
+			<SimpleData name="NumParcela">59</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.99327077270496,18.730602271012845 -90.993635089747926,18.727877899376228 -90.991587873694598,18.727579441803094 -90.992641589979584,18.724063686450691 -90.988844680055436,18.723305783308952 -90.988298072204373,18.726348618979632 -90.987677375090072,18.729780268752137 -90.993227418951932,18.730927030949573 -90.99327077270496,18.730602271012845</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 6</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">30.620217492726</SimpleData>
+			<SimpleData name="NumParcela">6</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.966938089306026,18.756624564140207 -90.966919235488817,18.756489418514512 -90.966541038749256,18.753204518097544 -90.965825651977767,18.747302565909024 -90.962800750469086,18.749924823087046 -90.962384321226764,18.750292407049027 -90.963315874334668,18.750505154331311 -90.962816066373122,18.7515497400559 -90.9641350856174,18.751699505019783 -90.962360132045674,18.756107288555953 -90.966938089306026,18.756624564140207</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 60</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">40.375816932391</SimpleData>
+			<SimpleData name="NumParcela">60</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.0061890091404,18.728589632190168 -91.006363301517865,18.726801990750342 -90.992641589979584,18.724063686450691 -90.991587873694598,18.727579441803094 -90.993635089747926,18.727877899376228 -90.993818450687954,18.727048698919518 -91.0061890091404,18.728589632190168</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 8</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">21.146376763021</SimpleData>
+			<SimpleData name="NumParcela">8</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.958566081839706,18.755678498761437 -90.95898242675699,18.751138674735785 -90.958508210063499,18.751083752099426 -90.958271425996188,18.751941331282133 -90.956433545931162,18.751745928668146 -90.956512424657319,18.750864305872945 -90.954621226449348,18.750634672876828 -90.954618001677161,18.750678801552588 -90.954291226268694,18.755195286616139 -90.95732448530778,18.755538164973785 -90.958566081839706,18.755678498761437</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 5</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.135529591603</SimpleData>
+			<SimpleData name="NumParcela">5</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.972970617728905,18.754985269280461 -90.973645061328071,18.752188400778721 -90.966541038749256,18.753204518097544 -90.966919235488817,18.756489418514512 -90.972970617728905,18.754985269280461</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 50</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">16.617449667077</SimpleData>
+			<SimpleData name="NumParcela">50</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.981912529817933,18.73371230345041 -90.982218179541675,18.732278121295266 -90.977218384993819,18.731752177372062 -90.97676177122375,18.733772991994563 -90.97656885972728,18.734653555005487 -90.977759253559356,18.734718399439124 -90.981637716104927,18.734924729358134 -90.981912529817933,18.73371230345041</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 52</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">5.620078959871</SimpleData>
+			<SimpleData name="NumParcela">52</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.984427635179273,18.73476954665033 -90.98474492254347,18.73255253459541 -90.983012670225207,18.732361680080825 -90.982218179541675,18.732278121295266 -90.981912529817933,18.73371230345041 -90.984427635179273,18.73476954665033</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 9</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">17.187630768803</SimpleData>
+			<SimpleData name="NumParcela">9</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.99275522637241,18.754124120525823 -90.992672082642869,18.751336511792257 -90.992625184905833,18.749914704933385 -90.990712130788495,18.749660457035208 -90.990797608015825,18.751980868346529 -90.988986356901478,18.752370210162379 -90.988031195008304,18.755217585792629 -90.990555127642153,18.754633394473448 -90.99275522637241,18.754124120525823</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 16</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">50.365153014765</SimpleData>
+			<SimpleData name="NumParcela">16</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.973645061328071,18.752188400778721 -90.973797087016422,18.752160418414377 -90.973441530969964,18.751325798927162 -90.972773349831641,18.751930742236738 -90.971180996981346,18.748252750615467 -90.970503829029568,18.743148423437322 -90.97001982386945,18.74357411989828 -90.966737919580609,18.746460600193032 -90.965825651977767,18.747302565909024 -90.966541038749256,18.753204518097544 -90.973645061328071,18.752188400778721</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 17</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">19.885592769958</SimpleData>
+			<SimpleData name="NumParcela">17</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.962816066373122,18.7515497400559 -90.963315874334668,18.750505154331311 -90.962384321226764,18.750292407049027 -90.962800750469086,18.749924823087046 -90.959581094721756,18.746356825901945 -90.956134778672293,18.74942735649898 -90.95994254094802,18.749815285680249 -90.958508210063499,18.751083752099426 -90.95898242675699,18.751138674735785 -90.962816066373122,18.7515497400559</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 18</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">8.290788743585</SimpleData>
+			<SimpleData name="NumParcela">18</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.958508210063499,18.751083752099426 -90.95994254094802,18.749815285680249 -90.956134778672293,18.74942735649898 -90.954621226449348,18.750634672876828 -90.956512424657319,18.750864305872945 -90.956433545931162,18.751745928668146 -90.958271425996188,18.751941331282133 -90.958508210063499,18.751083752099426</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 19</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">44.640135867588</SimpleData>
+			<SimpleData name="NumParcela">19</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.990302951401631,18.749663079774084 -90.990717516217259,18.748466892632287 -90.989299629166297,18.748226523174807 -90.989599644993675,18.747319037075176 -90.988244262426335,18.747465576845752 -90.976519349638266,18.748766044330896 -90.975535615314598,18.751915109699286 -90.990302951401631,18.749663079774084</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 2</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">61.50675000196</SimpleData>
+			<SimpleData name="NumParcela">2</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.988031195008304,18.755217585792629 -90.988986356901478,18.752370210162379 -90.974515192441018,18.755275141336856 -90.975535615314598,18.751915109699286 -90.973797087016422,18.752160418414377 -90.973645061328071,18.752188400778721 -90.972970617728905,18.754985269280461 -90.97200864303089,18.759000221372883 -90.983303072966962,18.756311866847899 -90.988031195008304,18.755217585792629</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 20</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">65.760371702567</SimpleData>
+			<SimpleData name="NumParcela">20</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.977647969361641,18.744988697937714 -90.977915171605261,18.744125957182597 -90.977526278746069,18.744153415504783 -90.976854944793033,18.743474882097832 -90.976186894092834,18.742801359620199 -90.973714609435959,18.74030053503456 -90.97254544709034,18.74133421077816 -90.971990331358811,18.741827941167923 -90.971907412562103,18.741901730624679 -90.971341004221372,18.742405435686837 -90.971238131045212,18.742497002978148 -90.970665795969353,18.743005971072101 -90.970583940285394,18.743077982753778 -90.970503829029568,18.743148423437322 -90.971180996981346,18.748252750615467 -90.972773349831641,18.751930742236738 -90.973441530969964,18.751325798927162 -90.973797087016422,18.752160418414377 -90.975535615314598,18.751915109699286 -90.976519349638266,18.748766044330896 -90.977647969361641,18.744988697937714</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 21</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">17.095348706679</SimpleData>
+			<SimpleData name="NumParcela">21</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.954659553313178,18.750111037573735 -90.958621728243912,18.746686834672268 -90.955236764874641,18.742221748366422 -90.955122037924397,18.743789874234711 -90.954992300652108,18.745563181297221 -90.95465996498092,18.750105373733707 -90.954659553313178,18.750111037573735</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 22</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">4.577845331118</SimpleData>
+			<SimpleData name="NumParcela">22</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.991090938324831,18.747400669608968 -90.991619418262218,18.745857533569922 -90.990145106574303,18.7456777502187 -90.989599644993675,18.747319037075176 -90.989299629166297,18.748226523174807 -90.990717516217259,18.748466892632287 -90.991090938324831,18.747400669608968</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 23</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">28.898421421599</SimpleData>
+			<SimpleData name="NumParcela">23</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.965825651977767,18.747302565909024 -90.966737919580609,18.746460600193032 -90.963639927234311,18.743231524687133 -90.963430139436497,18.743059142640622 -90.959581094721756,18.746356825901945 -90.962800750469086,18.749924823087046 -90.965825651977767,18.747302565909024</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 24</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">48.049756110058</SimpleData>
+			<SimpleData name="NumParcela">24</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.988244262426335,18.747465576845752 -90.988800343122136,18.745517324969111 -90.987848671517639,18.745404533770554 -90.988427085068494,18.743790228627038 -90.977647969361641,18.744988697937714 -90.976519349638266,18.748766044330896 -90.988244262426335,18.747465576845752</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 25</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">29.647215146222</SimpleData>
+			<SimpleData name="NumParcela">25</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.995214941592081,18.746234162947854 -90.99524454060672,18.746147026723904 -90.994856974785975,18.743656958445037 -90.992005286749475,18.743248654682567 -90.988683761745889,18.743102920294426 -90.988427085068494,18.743790228627038 -90.987848671517639,18.745404533770554 -90.988800343122136,18.745517324969111 -90.988244262426335,18.747465576845752 -90.989599644993675,18.747319037075176 -90.990145106574303,18.7456777502187 -90.991619418262218,18.745857533569922 -90.991090938324831,18.747400669608968 -90.99470770984297,18.74772622918476 -90.995214941592081,18.746234162947854</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 26</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">51.122864603653</SimpleData>
+			<SimpleData name="NumParcela">26</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.004498865387788,18.745190885169418 -91.00484551287316,18.74229098034488 -90.999356745023817,18.741725054160835 -90.999360217129436,18.741632353014527 -90.99593307350267,18.741285943311745 -90.992798617149447,18.740964626595336 -90.992660085798533,18.741352872987168 -90.992005286749475,18.743248654682567 -90.994856974785975,18.743656958445037 -90.99524454060672,18.746147026723904 -90.995214941592081,18.746234162947854 -90.999233768502904,18.746660627943644 -90.999461841058775,18.744707208145346 -91.004498865387788,18.745190885169418</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 27</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">43.791763948797</SimpleData>
+			<SimpleData name="NumParcela">27</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.024672419795877,18.741572051891172 -91.024866286739737,18.739661386240829 -91.024644547713763,18.739645215030528 -91.020726480484555,18.739359488697687 -91.019200617219965,18.739248182478828 -91.018824270836149,18.743184284269127 -91.01857114635942,18.743161268961039 -91.018422181580974,18.745077112511826 -91.024142458345509,18.746794901963931 -91.024213096361251,18.746098775036721 -91.024672419795877,18.741572051891172</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 1</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">23.478502198972</SimpleData>
+			<SimpleData name="NumParcela">1</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.97200864303089,18.759000221372883 -90.972970617728905,18.754985269280461 -90.966919235488817,18.756489418514512 -90.966938089306026,18.756624564140207 -90.967338623255628,18.760111566728387 -90.97200864303089,18.759000221372883</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 10</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">6.420113158496</SimpleData>
+			<SimpleData name="NumParcela">10</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.994666839671552,18.75368160024334 -90.994695881114694,18.750892301860286 -90.992672082642869,18.751336511792257 -90.99275522637241,18.754124120525823 -90.993500368393171,18.753951628303135 -90.994666839671552,18.75368160024334</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 11</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">38.548036950497</SimpleData>
+			<SimpleData name="NumParcela">11</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.017732990101862,18.753447995753518 -91.018381931739441,18.745578982279394 -91.012104642479557,18.744494458706551 -91.013060381674109,18.749422544064721 -91.013696040205701,18.749275318236872 -91.015747995691711,18.751396290263571 -91.017732990101862,18.753447995753518</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 12</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">45.730123452072</SimpleData>
+			<SimpleData name="NumParcela">12</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.999277193021499,18.752614259749635 -90.998311168656116,18.749613482812219 -90.999233768502904,18.746660627943644 -90.995214941592081,18.746234162947854 -90.99470770984297,18.74772622918476 -90.991090938324831,18.747400669608968 -90.990717516217259,18.748466892632287 -90.990302951401631,18.749663079774084 -90.990496177735892,18.749637224388167 -90.990712130788495,18.749660457035208 -90.992625184905833,18.749914704933385 -90.992672082642869,18.751336511792257 -90.994695881114694,18.750892301860286 -90.994666839671552,18.75368160024334 -90.997282912096537,18.753075971272853 -90.999277193021499,18.752614259749635</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 13</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">43.77152741908</SimpleData>
+			<SimpleData name="NumParcela">13</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.003782677564288,18.751571074448464 -91.004498865387788,18.745190885169418 -90.999461841058775,18.744707208145346 -90.999233768502904,18.746660627943644 -90.998311168656116,18.749613482812219 -90.999277193021499,18.752614259749635 -91.003782677564288,18.751571074448464</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 15</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">41.226248037125</SimpleData>
+			<SimpleData name="NumParcela">15</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-91.013060381674109,18.749422544064721 -91.012104642479557,18.744494458706551 -91.01173230586943,18.742588759951481 -91.00826432968617,18.742422160014542 -91.007250063961308,18.750768157893265 -91.009544585226209,18.750236792567886 -91.013060381674109,18.749422544064721</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 46</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">10.01573112759</SimpleData>
+			<SimpleData name="NumParcela">46</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.9768156967435,18.737371901486426 -90.977759253559356,18.734718399439124 -90.97656885972728,18.734653555005487 -90.97676177122375,18.733772991994563 -90.974225206849397,18.733193512822211 -90.973793347558754,18.734650627660102 -90.9768156967435,18.737371901486426</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 54</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">16.7627461093</SimpleData>
+			<SimpleData name="NumParcela">54</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.970490366739028,18.735037955833715 -90.970736168676467,18.733002429818793 -90.966624084133528,18.732551516437795 -90.963693037103681,18.732230059813809 -90.963321366515558,18.734163279106333 -90.970490366739028,18.735037955833715</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>Parcela No. 51</name>
+	<styleUrl>#estiloMapa</styleUrl>
+	<ExtendedData>
+		<SchemaData schemaUrl="#parcelas_id">
+			<SimpleData name="Area">2.063225397359</SimpleData>
+			<SimpleData name="NumParcela">51</SimpleData>
+			<SimpleData name="IdNucleoAgrario">79</SimpleData>
+			<SimpleData name="NombreNucleoAgrario">NICOLAS BRAVO</SimpleData>
+			<SimpleData name="Tipo">EJIDO</SimpleData>
+			<SimpleData name="IdMunicipio">3</SimpleData>
+			<SimpleData name="NombreMunicipio">CARMEN</SimpleData>
+			<SimpleData name="IdEntidadFederativa">4</SimpleData>
+			<SimpleData name="NombreEntidadFederativa">CAMPECHE</SimpleData>
+		</SchemaData>
+	</ExtendedData>
+	<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.973793347558754,18.734650627660102 -90.974225206849397,18.733193512822211 -90.972081667658884,18.732897554554988 -90.972399329715302,18.733388032996547 -90.973793347558754,18.734650627660102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+</Placemark>
+</Document>
+</kml>
